@@ -1,0 +1,921 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Progress Test 2 – Vững Bước</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap">
+<style>
+/* Layout: English Thoughts exam room — computer-delivered IELTS layout: passage left, answer sheet right, question navigator docked at the bottom; brain watermark behind every paper surface. */
+:root{
+  --bg:#FBF6F8; --paper:#FFFFFF; --ink:#162144; --muted:#5E6584; --line:#EBDDE4;
+  --accent:#162144; --accent-ink:#FFFFFF; --accent-soft:#FDE6EE;
+  --rose:#B8354F; --pink:#E05A62; --blush:#F9B5CA;
+  --hl:#FFD0DE; --hl-ink:#162144;
+  --done:#162144; --done-ink:#FFFFFF;
+  --ok:#1E8A4C; --ok-soft:#E0F4E8; --bad:#C2410C; --bad-soft:#FDE7DA; --warn:#B45309;
+  --wm-op:.07; --brandbox:#FFFFFF; --shadow:0 10px 30px rgba(22,33,68,.14);
+  --wm-img:url("data:image/webp;base64,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");
+  --f-display:"Baloo 2","Be Vietnam Pro",system-ui,sans-serif;
+  --f-body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-read:"Literata",Georgia,"Times New Roman",serif;
+  --r:14px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0F1428; --paper:#171D35; --ink:#EEF0F8; --muted:#A4AAC4; --line:#2B3253;
+  --accent:#F6A3BB; --accent-ink:#1A1030; --accent-soft:#2D2443;
+  --rose:#FF9DB5; --pink:#F07C8A; --blush:#F9B5CA;
+  --hl:#5C2B44; --hl-ink:#FFE6EE;
+  --done:#F6A3BB; --done-ink:#1A1030;
+  --ok:#5FD08F; --ok-soft:#163824; --bad:#FF9A66; --bad-soft:#3E2216; --warn:#FBBF24;
+  --wm-op:.09; --brandbox:#FFFFFF; --shadow:0 10px 30px rgba(0,0,0,.45); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F1428; --paper:#171D35; --ink:#EEF0F8; --muted:#A4AAC4; --line:#2B3253;
+  --accent:#F6A3BB; --accent-ink:#1A1030; --accent-soft:#2D2443;
+  --rose:#FF9DB5; --pink:#F07C8A; --blush:#F9B5CA;
+  --hl:#5C2B44; --hl-ink:#FFE6EE;
+  --done:#F6A3BB; --done-ink:#1A1030;
+  --ok:#5FD08F; --ok-soft:#163824; --bad:#FF9A66; --bad-soft:#3E2216; --warn:#FBBF24;
+  --wm-op:.09; --brandbox:#FFFFFF; --shadow:0 10px 30px rgba(0,0,0,.45); color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 40px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+body::after{content:"";position:fixed;right:max(12px,env(safe-area-inset-right,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));width:110px;height:110px;background:var(--wm-img) center/contain no-repeat;opacity:.12;pointer-events:none;z-index:2}
+body.exam-mode::after{bottom:calc(84px + env(safe-area-inset-bottom,0px));width:80px;height:80px}
+h1,h2,h3,h4{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.2}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid var(--pink);outline-offset:2px}
+a{color:var(--rose)}
+.muted{color:var(--muted)}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--rose)}
+.wm{position:relative;isolation:isolate}
+.wm::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:var(--wm-img) center 45%/min(55%,320px) no-repeat;opacity:var(--wm-op)}
+.btn{border:0;background:var(--accent);color:var(--accent-ink);border-radius:999px;padding:10px 20px;font-weight:700;font-size:14.5px;display:inline-flex;align-items:center;gap:8px;justify-content:center}
+.btn.pink{background:var(--pink);color:#fff}
+.btn.ghost{background:var(--paper);color:var(--ink);border:1px solid var(--line)}
+.btn.sm{padding:6px 12px;font-size:13px}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.banner{display:inline-block;background:var(--brandbox);border-radius:16px;padding:4px 8px;line-height:0;flex:none}
+.banner img{height:56px;width:auto;max-width:100%}
+.toast{position:fixed;left:50%;bottom:calc(96px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-weight:600;font-size:14px;z-index:60;max-width:calc(100% - 32px);text-align:center}
+
+/* ---------- start / info screens ---------- */
+.wrap{max-width:1080px;margin:0 auto;position:relative;z-index:1}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:18px 14px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:14px;flex-wrap:wrap;min-width:0}
+.brand-sub{display:grid;line-height:1.25}
+.brand-sub b{font-family:var(--f-display);font-size:19px;font-weight:800}
+.brand-sub small{color:var(--muted);font-size:12.5px}
+.start{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:28px;padding-block:34px 20px;align-items:start}
+.start h1{font-size:clamp(30px,4.4vw,46px);font-weight:800;line-height:1.08;letter-spacing:-.01em}
+.start h1 em{font-style:normal;color:var(--rose);background:linear-gradient(transparent 60%,var(--hl) 60%);padding:0 4px}
+.rules{display:grid;gap:10px;margin-top:18px;padding:0;list-style:none;max-width:56ch}
+.rules li{display:grid;grid-template-columns:34px minmax(0,1fr);gap:10px;align-items:start;font-size:14.5px}
+.rules li b.k{font-family:var(--f-display);font-weight:800;font-size:15px;color:var(--rose);background:var(--accent-soft);border-radius:10px;height:30px;display:grid;place-items:center}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:grid;gap:16px;box-shadow:var(--shadow)}
+.card label.lb{font-weight:700;font-size:14px}
+.field{display:grid;gap:6px}
+.field input{width:100%;padding:11px 13px;border:1.5px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:inherit;font-size:16px}
+.field input:focus{border-color:var(--ink);outline:none}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.choice{position:relative;text-align:left;border:1.5px solid var(--line);background:var(--bg);border-radius:12px;padding:14px;display:grid;gap:4px}
+.choice b{font-family:var(--f-display);font-size:22px;font-weight:800}
+.choice small{color:var(--muted);font-size:12.5px}
+.choice[aria-pressed="true"]{border-color:var(--ink);background:var(--paper);box-shadow:inset 0 0 0 1.5px var(--ink)}
+.choice[aria-pressed="true"]::after{content:"✓";position:absolute;top:10px;right:12px;width:22px;height:22px;border-radius:50%;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-size:12px;font-weight:800}
+.hint{font-size:12.5px;color:var(--muted)}
+.err{font-size:13px;color:var(--bad);font-weight:600}
+.notice{max-width:640px;margin:48px auto;text-align:center;display:grid;gap:14px;justify-items:center}
+.notice h2{font-size:26px}
+.notice p{margin:0;color:var(--muted);max-width:52ch}
+.notice .mark{width:120px;height:120px;background:var(--wm-img) center/contain no-repeat}
+.receipt{display:grid;grid-template-columns:auto auto;gap:4px 18px;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;text-align:left;font-size:14px}
+.receipt span{color:var(--muted)}
+.receipt b{font-variant-numeric:tabular-nums}
+.foot{padding-top:24px;font-size:12.5px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between}
+
+/* ---------- exam ---------- */
+.exam{position:fixed;inset:0;z-index:1;display:grid;grid-template-columns:minmax(0,1fr);overflow:hidden;grid-template-rows:auto auto minmax(0,1fr) auto;background:var(--bg);
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.xbar{grid-row:1;display:flex;align-items:center;gap:12px;padding-block:8px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));border-bottom:1px solid var(--line);background:var(--paper);flex-wrap:wrap}
+.xbar .banner{padding:2px 6px;border:1px solid var(--line)}
+.xbar .banner img{height:40px}
+.xinfo{flex:1;min-width:150px;display:grid;line-height:1.25}
+.xinfo b{font-family:var(--f-display);font-size:16px;font-weight:800}
+.xinfo small{color:var(--muted);font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.timer{display:flex;align-items:center;gap:8px;font-variant-numeric:tabular-nums;font-weight:800;font-size:18px;padding:6px 14px;border-radius:999px;background:var(--bg);border:1.5px solid var(--line)}
+.timer svg{width:18px;height:18px;flex:none}
+.timer.warn{color:var(--warn);border-color:var(--warn)}
+.timer.crit{color:#fff;background:var(--pink);border-color:var(--pink)}
+.save{font-size:12px;color:var(--muted);min-width:90px;text-align:right}
+.mtabs{grid-row:2;display:none;gap:6px;padding:8px max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--line)}
+.mtabs button{flex:1;border:1px solid var(--line);background:var(--paper);padding:8px;border-radius:10px;font-weight:700;font-size:14px}
+.mtabs button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.xmain{grid-row:3;display:grid;min-height:0;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:14px}
+.xmain{grid-template-columns:minmax(0,var(--lw,1fr)) 12px minmax(0,var(--rw,1fr))}
+.pane{min-width:0;min-height:0;overflow:auto;background:var(--paper);border:1px solid var(--line);border-radius:var(--r);overscroll-behavior:contain}
+.ppane{padding:24px 28px}
+.qpane{padding:20px 22px;background:var(--paper)}
+.divider{cursor:col-resize;display:grid;place-items:center;touch-action:none}
+.divider::before{content:"";width:4px;height:48px;border-radius:4px;background:var(--line)}
+.divider:hover::before,.divider.drag::before{background:var(--pink)}
+.ptitle{font-family:var(--f-read);font-size:23px;font-weight:600;line-height:1.3;margin:4px 0 4px}
+.psub{font-family:var(--f-read);font-style:italic;color:var(--muted);font-size:15px;margin:0 0 16px}
+.para{display:grid;grid-template-columns:28px minmax(0,1fr);gap:6px;margin:0 0 14px}
+.para.nolab{grid-template-columns:minmax(0,1fr)}
+.para .pl{font-family:var(--f-display);font-weight:800;color:var(--rose);font-size:16px;line-height:1.75}
+.para p{font-family:var(--f-read);font-size:16.5px;line-height:1.78;margin:0;max-width:70ch}
+mark.hl{background:var(--hl);color:var(--hl-ink);border-radius:3px;padding:0 1px;cursor:pointer}
+.hltool{position:fixed;z-index:50;display:flex;gap:4px;background:var(--ink);padding:5px;border-radius:12px;box-shadow:var(--shadow)}
+.hltool button{border:0;border-radius:8px;padding:6px 10px;font-size:13px;font-weight:700;background:transparent;color:var(--bg);display:flex;align-items:center;gap:6px}
+.hltool button.on{background:var(--hl);color:var(--hl-ink)}
+.hltool button:hover{background:rgba(255,255,255,.14)}
+.hltool button.on:hover{background:var(--hl)}
+.qhead{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.qhead h3{font-size:18px}
+.group{display:grid;gap:12px;padding-block:16px;border-top:1px solid var(--line)}
+.group:first-of-type{border-top:0;padding-top:4px}
+.group h4{font-size:15.5px;font-weight:800}
+.instr{font-size:14px;color:var(--muted);margin:0}
+.instr b{color:var(--ink)}
+.box{border:1.5px solid var(--ink);border-radius:12px;padding:10px 14px;display:grid;gap:3px;font-size:14.5px}
+.box .bt{font-family:var(--f-display);font-weight:800;font-size:14.5px;margin-bottom:4px;text-align:center}
+.box div.it{display:grid;grid-template-columns:2.6em minmax(0,1fr);gap:6px}
+.box div.it b{color:var(--rose)}
+.q{display:grid;grid-template-columns:32px minmax(0,1fr);gap:10px;align-items:start;scroll-margin:16px;border-radius:10px;padding:4px}
+.q.flash{animation:flash 1.2s ease}
+@keyframes flash{0%,40%{background:var(--accent-soft)}100%{background:transparent}}
+.qn{width:30px;height:30px;border-radius:8px;border:1.5px solid var(--ink);display:grid;place-items:center;font-weight:800;font-size:13px;font-variant-numeric:tabular-nums;background:var(--paper)}
+.q.answered .qn{background:var(--done);color:var(--done-ink);border-color:var(--done)}
+.stem{margin:3px 0 8px;font-size:15px}
+.q select{min-width:9em;max-width:100%;padding:7px 10px;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:inherit;font-weight:600}
+.q.inline{grid-template-columns:32px minmax(0,1fr) auto;align-items:center}
+.q.inline .stem{margin:0}
+.radios{display:flex;flex-wrap:wrap;gap:6px}
+.radios label{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--line);background:var(--bg);border-radius:999px;padding:5px 12px;font-size:13.5px;font-weight:700;cursor:pointer}
+.radios input{accent-color:var(--ink);margin:0}
+.radios label:has(input:checked){background:var(--done);color:var(--done-ink);border-color:var(--done)}
+.checks{display:grid;gap:6px}
+.checks label{display:grid;grid-template-columns:22px 1.6em minmax(0,1fr);gap:6px;align-items:start;border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:8px 12px;cursor:pointer;font-size:14.5px}
+.checks label:has(input:checked){border-color:var(--ink);background:var(--accent-soft)}
+.checks input{accent-color:var(--ink);margin:3px 0 0}
+.checks b{color:var(--rose)}
+.multihead{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.multihead .qn{display:inline-grid}
+.summary{border:1.5px dashed var(--line);border-radius:12px;padding:14px 16px;background:var(--bg);font-size:15px;line-height:2.1}
+.summary .st{font-family:var(--f-display);font-weight:800;text-align:center;display:block;line-height:1.4;margin-bottom:6px}
+.gap{display:inline-flex;align-items:center;gap:4px;vertical-align:baseline;scroll-margin:16px;border-radius:8px}
+.gap.flash{animation:flash 1.2s ease}
+.gap .gn{font-size:11.5px;font-weight:800;min-width:22px;height:22px;border-radius:6px;display:inline-grid;place-items:center;border:1.5px solid var(--ink);line-height:1;padding:0 3px}
+.gap.answered .gn{background:var(--done);color:var(--done-ink);border-color:var(--done)}
+.gap input{width:9.5em;max-width:60vw;padding:3px 8px;border:0;border-bottom:2px solid var(--ink);background:var(--paper);color:var(--ink);font:inherit;border-radius:6px 6px 0 0;line-height:1.5}
+.sentq{font-size:15px;line-height:2.1}
+.xnav{grid-row:4;border-top:1px solid var(--line);background:var(--paper);padding-block:8px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;gap:10px;align-items:center}
+.parts{display:flex;gap:8px;flex:1;min-width:0;overflow-x:auto;scrollbar-width:thin;padding-block:2px}
+.part{display:flex;align-items:center;gap:6px;border:1.5px solid var(--line);border-radius:12px;padding:4px 6px 4px 10px;flex:none;background:var(--bg)}
+.part.cur{border-color:var(--ink);background:var(--paper)}
+.part .pn{border:0;background:none;padding:2px 4px 2px 0;font-family:var(--f-display);font-weight:800;font-size:14px;white-space:nowrap}
+.part .cnt{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.nums{display:flex;gap:3px}
+.nums button{width:28px;height:28px;border-radius:7px;border:1.5px solid var(--line);background:var(--paper);font-size:12.5px;font-weight:700;font-variant-numeric:tabular-nums;padding:0;color:var(--muted)}
+.nums button.done{background:var(--done);color:var(--done-ink);border-color:var(--done)}
+.nums button.here{box-shadow:0 0 0 2px var(--pink)}
+.part:not(.cur) .nums{display:none}
+@media (min-width:1500px){.part:not(.cur) .nums{display:flex}}
+.legend{display:flex;gap:10px;font-size:12px;color:var(--muted);align-items:center;flex:none}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;border:1.5px solid var(--line);vertical-align:-1px;margin-right:4px}
+.legend i.d{background:var(--done);border-color:var(--done)}
+.modal{position:fixed;inset:0;z-index:70;background:rgba(15,20,40,.55);display:grid;place-items:center;padding:16px}
+.dlg{background:var(--paper);color:var(--ink);border-radius:18px;padding:22px;max-width:460px;width:100%;display:grid;gap:14px;box-shadow:var(--shadow)}
+.dlg h3{font-size:21px}
+.dlg p{margin:0;font-size:14.5px}
+.dlg .acts{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.chips span{font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--bad-soft);color:var(--ink);font-variant-numeric:tabular-nums}
+
+/* ---------- teacher ---------- */
+.tgrid{display:grid;gap:18px;padding-block:22px}
+.thead{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap}
+.thead h1{font-size:clamp(24px,3.4vw,32px);font-weight:800}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;gap:2px;background:var(--paper)}
+.seg button{border:0;background:none;padding:6px 14px;border-radius:999px;font-size:13.5px;font-weight:700;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.tile{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;display:grid;gap:2px}
+.tile b{font-family:var(--f-display);font-size:30px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1.1}
+.tile span{font-size:12.5px;color:var(--muted)}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:18px;display:grid;gap:14px;min-width:0}
+.panel h2{font-size:19px;font-weight:800}
+.phead{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.tbl{overflow-x:auto}
+.tbl table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}
+.tbl th,.tbl td{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;white-space:nowrap}
+.tbl th{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:700}
+.tbl tbody tr{cursor:pointer}
+.tbl tbody tr:hover{background:var(--accent-soft)}
+.tbl td.name{font-weight:700;white-space:normal;min-width:10em}
+.pill{display:inline-block;font-size:11.5px;font-weight:800;padding:2px 9px;border-radius:999px}
+.pill.sub{background:var(--ok-soft);color:var(--ok)}
+.pill.ing{background:var(--accent-soft);color:var(--rose)}
+.pill.no{background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+.bandpill{display:inline-block;min-width:3em;text-align:center;font-weight:800;padding:2px 8px;border-radius:8px;background:var(--blush);color:#162144}
+.empty{padding:26px 10px;text-align:center;color:var(--muted)}
+.heat{display:grid;grid-template-columns:repeat(20,minmax(0,1fr));gap:4px}
+.heat div{aspect-ratio:1;max-width:100%;border-radius:6px;display:grid;place-items:center;font-size:11px;font-weight:800;font-variant-numeric:tabular-nums;border:1px solid var(--line)}
+.heat .h0{background:var(--bad-soft)} .heat .h1{background:var(--accent-soft)} .heat .h2{background:var(--ok-soft)} .heat .hx{background:var(--bg);color:var(--muted)}
+.hlegend{display:flex;gap:12px;font-size:12px;color:var(--muted);flex-wrap:wrap}
+.hlegend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin-right:4px;border:1px solid var(--line)}
+.bars{display:grid;gap:8px}
+.bar{display:grid;grid-template-columns:minmax(0,13em) minmax(0,1fr) 4.5em;gap:10px;align-items:center;font-size:13.5px}
+.bar .tr{height:10px;border-radius:99px;background:var(--bg);border:1px solid var(--line);overflow:hidden}
+.bar .tr i{display:block;height:100%;background:var(--pink);border-radius:99px}
+.bar b{text-align:right;font-variant-numeric:tabular-nums}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}
+.sheet{position:fixed;inset:0;z-index:65;background:rgba(15,20,40,.5);display:flex;justify-content:flex-end}
+.sheet .in{background:var(--bg);width:min(760px,100%);height:100%;overflow:auto;padding:20px max(16px,env(safe-area-inset-right,0px)) 40px 20px;padding-top:calc(20px + env(safe-area-inset-top,0px));display:grid;gap:16px;align-content:start}
+.sheet .shd{display:flex;justify-content:space-between;align-items:start;gap:10px}
+.sheet h2{font-size:24px;font-weight:800}
+.scorebox{background:var(--ink);color:var(--bg);border-radius:var(--r);padding:18px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:18px;align-items:center}
+.scorebox .big{font-family:var(--f-display);font-size:44px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.scorebox .big small{font-size:18px;opacity:.7}
+.scorebox .row{display:flex;gap:16px;flex-wrap:wrap;font-size:13.5px}
+.scorebox .row span b{font-variant-numeric:tabular-nums}
+.atbl td.ok{color:var(--ok);font-weight:800}
+.atbl td.no{color:var(--bad);font-weight:800}
+.atbl td.ans{white-space:normal;max-width:14em}
+.atbl tr{cursor:default!important}
+.atbl tr.sep td{background:var(--bg);font-weight:800;font-size:12.5px;color:var(--rose);text-transform:uppercase;letter-spacing:.05em}
+.ovr{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:2px 9px;font-size:11.5px;font-weight:700}
+.ovr.on{background:var(--accent-soft);border-color:var(--pink)}
+textarea.cm{width:100%;min-height:120px;font:14.5px/1.55 var(--f-body);padding:12px;border-radius:12px;border:1.5px solid var(--line);background:var(--paper);color:var(--ink);resize:vertical}
+.wc{font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.wc.over{color:var(--bad);font-weight:700}
+.racts{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.danger{color:var(--bad)!important;border-color:var(--bad)!important}
+
+@media (max-width:900px){
+  .start{grid-template-columns:minmax(0,1fr)}
+  .mtabs{display:flex}
+  .xmain{grid-template-columns:minmax(0,1fr)!important;padding-block:10px}
+  .divider{display:none}
+  .xmain[data-show="q"] .ppane{display:none}
+  .xmain[data-show="p"] .qpane{display:none}
+  .ppane{padding:18px}
+  .qpane{padding:16px}
+  .legend{display:none}
+  .save{display:none}
+  .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .two{grid-template-columns:minmax(0,1fr)}
+  .heat{grid-template-columns:repeat(10,minmax(0,1fr))}
+}
+@media (max-width:560px){
+  .xbar .banner{display:none}
+  .xbar{flex-wrap:nowrap;gap:8px}
+  .xinfo{min-width:0}
+  .xinfo .long{display:none}
+  .timer{font-size:16px;padding:5px 10px}
+  .xbar .btn{padding:8px 14px}
+  .choices{grid-template-columns:1fr 1fr}
+  .q.inline{grid-template-columns:32px minmax(0,1fr)}
+  .q.inline select{grid-column:2}
+  .bar{grid-template-columns:minmax(0,1fr) 4em}
+  .bar .tr{grid-column:1/-1;grid-row:2}
+  .scorebox{grid-template-columns:1fr}
+  .para{grid-template-columns:22px minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<div id="app"><div class="wrap"><div class="notice"><div class="mark" aria-hidden="true"></div><h2>Đang mở phòng thi…</h2><p>Trang đang kết nối với hệ thống lưu bài của trung tâm.</p></div></div></div>
+<div class="hltool" id="hltool" hidden>
+  <button type="button" id="hl-add"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 11-6 6v3h9l3-3"/><path d="m22 12-4.6 4.6a2 2 0 0 1-2.8 0l-5.2-5.2a2 2 0 0 1 0-2.8L14 4"/></svg>Tô sáng</button>
+  <button type="button" id="hl-del">Xoá tô</button>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+/* ============ TEST CONTENT (no answers here – keys live in the protected db) ============ */
+const H8=[['i','The productive outcomes that may result from boredom'],['ii','What teachers can do to prevent boredom'],['iii','A new explanation and a new cure for boredom'],['iv','Problems with a scientific approach to boredom'],['v','A potential danger arising from boredom'],['vi','Creating a system of classification for feelings of boredom'],['vii','Age groups most affected by boredom'],['viii','Identifying those most affected by boredom']];
+const H9=[['i','Complaints about the impact of a certain approach'],['ii','Fundamental beliefs that are in fact incorrect'],['iii','Early recommendations concerning business activities'],['iv','Organisations that put a new approach into practice'],['v','Companies that have suffered from changing their approach'],['vi','What people are increasingly expected to do'],['vii','How to achieve outcomes that are currently impossible'],['viii','Neither approach guarantees continuous improvement'],['ix','Evidence that a certain approach can have more disadvantages than advantages']];
+const L=(s)=>s.split('').map(c=>[c,c]);
+const TFNG=['TRUE','FALSE','NOT GIVEN'], YNNG=['YES','NO','NOT GIVEN'];
+
+const TESTS={
+t1:{id:'t1',name:'Đề 1',parts:[
+{n:1,range:[1,13],title:'Why being bored is stimulating – and useful, too',sub:'This most common of emotions is turning out to be more interesting than we thought',
+paras:[
+['A','We all know how it feels – it’s impossible to keep your mind on anything, time stretches out, and all the things you could do seem equally unlikely to make you feel better. But defining boredom so that it can be studied in the lab has proved difficult. For a start, it can include a lot of other mental states, such as frustration, apathy, depression and indifference. There isn’t even agreement over whether boredom is always a low-energy, flat kind of emotion or whether feeling agitated and restless counts as boredom, too. In his book, <i>Boredom: A Lively History</i>, Peter Toohey at the University of Calgary, Canada, compares it to disgust – an emotion that motivates us to stay away from certain situations. ‘If disgust protects humans from infection, boredom may protect them from “infectious” social situations,’ he suggests.'],
+['B','By asking people about their experiences of boredom, Thomas Goetz and his team at the University of Konstanz in Germany have recently identified five distinct types: indifferent, calibrating, searching, reactant and apathetic. These can be plotted on two axes – one running left to right, which measures low to high arousal, and the other from top to bottom, which measures how positive or negative the feeling is. Intriguingly, Goetz has found that while people experience all kinds of boredom, they tend to specialise in one. Of the five types, the most damaging is ‘reactant’ boredom with its explosive combination of high arousal and negative emotion. The most useful is what Goetz calls ‘indifferent’ boredom: someone isn’t engaged in anything satisfying but still feels relaxed and calm. However, it remains to be seen whether there are any character traits that predict the kind of boredom each of us might be prone to.'],
+['C','Psychologist Sandi Mann at the University of Central Lancashire, UK, goes further. ‘All emotions are there for a reason, including boredom,’ she says. Mann has found that being bored makes us more creative. ‘We’re all afraid of being bored but in actual fact it can lead to all kinds of amazing things,’ she says. In experiments published last year, Mann found that people who had been made to feel bored by copying numbers out of the phone book for 15 minutes came up with more creative ideas about how to use a polystyrene cup than a control group. Mann concluded that a passive, boring activity is best for creativity because it allows the mind to wander. In fact, she goes so far as to suggest that we should seek out more boredom in our lives.'],
+['D','Psychologist John Eastwood at York University in Toronto, Canada, isn’t convinced. ‘If you are in a state of mind-wandering you are not bored,’ he says. ‘In my view, by definition boredom is an undesirable state.’ That doesn’t necessarily mean that it isn’t adaptive, he adds. ‘Pain is adaptive – if we didn’t have physical pain, bad things would happen to us. Does that mean that we should actively cause pain? No. But even if boredom has evolved to help us survive, it can still be toxic if allowed to fester.’ For Eastwood, the central feature of boredom is a failure to put our ‘attention system’ into gear. This causes an inability to focus on anything, which makes time seem to go painfully slowly. What’s more, your efforts to improve the situation can end up making you feel worse. ‘People try to connect with the world and if they are not successful there’s that frustration and irritability,’ he says. Perhaps most worryingly, says Eastwood, repeatedly failing to engage attention can lead to a state where we don’t know what to do any more, and no longer care.'],
+['E','Eastwood’s team is now trying to explore why the attention system fails. It’s early days but they think that at least some of it comes down to personality. Boredom proneness has been linked with a variety of traits. People who are motivated by pleasure seem to suffer particularly badly. Other personality traits, such as curiosity, are associated with a high boredom threshold. More evidence that boredom has detrimental effects comes from studies of people who are more or less prone to boredom. It seems those who bore easily face poorer prospects in education, their career and even life in general. But of course, boredom itself cannot kill – it’s the things we do to deal with it that may put us in danger. What can we do to alleviate it before it comes to that? Goetz’s group has one suggestion. Working with teenagers, they found that those who ‘approach’ a boring situation – in other words, see that it’s boring and get stuck in anyway – report less boredom than those who try to avoid it by using snacks, TV or social media for distraction.'],
+['F','Psychologist Francoise Wemelsfelder speculates that our over-connected lifestyles might even be a new source of boredom. ‘In modern human society there is a lot of overstimulation but still a lot of problems finding meaning,’ she says. So instead of seeking yet more mental stimulation, perhaps we should leave our phones alone, and use boredom to motivate us to engage with the world in a more meaningful way.']
+],
+groups:[
+{kind:'select',type:'Matching headings',range:[1,6],instr:'Reading Passage 1 has six paragraphs, <b>A–F</b>. Choose the correct heading for each paragraph from the list of headings below. Choose the correct number, <b>i–viii</b>.',box:{title:'List of Headings',items:H8},items:[[1,'Paragraph A'],[2,'Paragraph B'],[3,'Paragraph C'],[4,'Paragraph D'],[5,'Paragraph E'],[6,'Paragraph F']]},
+{kind:'select',type:'Matching features',range:[7,10],instr:'Look at the following people (Questions 7–10) and the list of ideas below. Match each person with the correct idea, <b>A–E</b>.',box:{title:'List of Ideas',items:[['A','The way we live today may encourage boredom.'],['B','One sort of boredom is worse than all the others.'],['C','Levels of boredom may fall in the future.'],['D','Trying to cope with boredom can increase its negative effects.'],['E','Boredom may encourage us to avoid an unpleasant experience.']]},items:[[7,'Peter Toohey'],[8,'Thomas Goetz'],[9,'John Eastwood'],[10,'Francoise Wemelsfelder']]},
+{kind:'gaps',type:'Summary completion',range:[11,13],instr:'Complete the summary below. Choose <b>ONE WORD ONLY</b> from the passage for each answer.',title:'Responses to boredom',text:'For John Eastwood, the central feature of boredom is that people cannot {11}, due to a failure in what he calls the ‘attention system’, and as a result they become frustrated and irritable. His team suggests that those for whom {12} is an important aim in life may have problems in coping with boredom, whereas those who have the characteristic of {13} can generally cope with it.'}
+]},
+{n:2,range:[14,26],title:'Why zoos are good',sub:'Scientist David Hone makes the case for zoos',
+paras:[
+['A','In my view, it is perfectly possible for many species of animals living in zoos or wildlife parks to have a quality of life as high as, or higher than, in the wild. Animals in good zoos get a varied and high-quality diet with all the supplements required, and any illnesses they might have will be treated. Their movement might be somewhat restricted, but they have a safe environment in which to live, and they are spared bullying and social ostracism by others of their kind. They do not suffer from the threat or stress of predators, or the irritation and pain of parasites or injuries. The average captive animal will have a greater life expectancy compared with its wild counterpart, and will not die of drought, of starvation or in the jaws of a predator. A lot of very nasty things happen to truly ‘wild’ animals that simply don’t happen in good zoos, and to view a life that is ‘free’ as one that is automatically ‘good’ is, I think, an error. Furthermore, zoos serve several key purposes.'],
+['B','Firstly, zoos aid conservation. Colossal numbers of species are becoming extinct across the world, and many more are increasingly threatened and therefore risk extinction. Moreover, some of these collapses have been sudden, dramatic and unexpected, or were simply discovered very late in the day. A species protected in captivity can be bred up to provide a reservoir population against a population crash or extinction in the wild. A good number of species only exist in captivity, with many of these living in zoos. Still more only exist in the wild because they have been reintroduced from zoos, or have wild populations that have been boosted by captive bred animals. Without these efforts there would be fewer species alive today. Although reintroduction successes are few and far between, the numbers are increasing, and the very fact that species have been saved or reintroduced as a result of captive breeding proves the value of such initiatives.'],
+['C','Zoos also provide education. Many children and adults, especially those in cities, will never see a wild animal beyond a fox or pigeon. While it is true that television documentaries are becoming ever more detailed and impressive, and many natural history specimens are on display in museums, there really is nothing to compare with seeing a living creature in the flesh, hearing it, smelling it, watching what it does and having the time to absorb details. That alone will bring a greater understanding and perspective to many, and hopefully give them a greater appreciation for wildlife, conservation efforts and how they can contribute.'],
+['D','In addition to this, there is also the education that can take place in zoos through signs, talks and presentations which directly communicate information to visitors about the animals they are seeing and their place in the world. This was an area where zoos used to be lacking, but they are now increasingly sophisticated in their communication and outreach work. Many zoos also work directly to educate conservation workers in other countries, or send their animal keepers abroad to contribute their knowledge and skills to those working in zoos and reserves, thereby helping to improve conditions and reintroductions all over the world.'],
+['E','Zoos also play a key role in research. If we are to save wild species and restore and repair ecosystems we need to know about how key species live, act and react. Being able to undertake research on animals in zoos where there is less risk and fewer variables means real changes can be effected on wild populations. Finding out about, for example, the oestrus cycle of an animal or its breeding rate helps us manage wild populations. Procedures such as capturing and moving at-risk or dangerous individuals are bolstered by knowledge gained in zoos about doses for anaesthetics, and by experience in handling and transporting animals. This can make a real difference to conservation efforts and to the reduction of human-animal conflicts, and can provide a knowledge base for helping with the increasing threats of habitat destruction and other problems.'],
+['F','In conclusion, considering the many ongoing global threats to the environment, it is hard for me to see zoos as anything other than essential to the long-term survival of numerous species. They are vital not just in terms of protecting animals, but as a means of learning about them to aid those still in the wild, as well as educating and informing the general population about these animals and their world so that they can assist or at least accept the need to be more environmentally conscious. Without them, the world would be, and would increasingly become, a much poorer place.']
+],
+groups:[
+{kind:'select',type:'Matching information',range:[14,17],instr:'Reading Passage 2 has six paragraphs, <b>A–F</b>. Which paragraph contains the following information? Choose the correct letter, <b>A–F</b>.',opts:L('ABCDEF'),items:[[14,'a reference to how quickly animal species can die out'],[15,'reasons why it is preferable to study animals in captivity rather than in the wild'],[16,'mention of two ways of learning about animals other than visiting them in zoos'],[17,'reasons why animals in zoos may be healthier than those in the wild']]},
+{kind:'radio',type:'TRUE / FALSE / NOT GIVEN',range:[18,22],instr:'Do the following statements agree with the information given in Reading Passage 2? Choose <b>TRUE</b> if the statement agrees with the information, <b>FALSE</b> if the statement contradicts the information, <b>NOT GIVEN</b> if there is no information on this.',opts:TFNG,items:[[18,'An animal is likely to live longer in a zoo than in the wild.'],[19,'There are some species in zoos which can no longer be found in the wild.'],[20,'Improvements in the quality of TV wildlife documentaries have resulted in increased numbers of zoo visitors.'],[21,'Zoos have always excelled at transmitting information about animals to the public.'],[22,'Studying animals in zoos is less stressful for the animals than studying them in the wild.']]},
+{kind:'multi',type:'Multiple choice (2 answers)',range:[23,24],instr:'Choose <b>TWO</b> letters, <b>A–E</b>.',stem:'Which TWO of the following are stated about zoo staff in the text?',opts:[['A','Some take part in television documentaries about animals.'],['B','Some travel to overseas locations to join teams in zoos.'],['C','Some get experience with species in the wild before taking up zoo jobs.'],['D','Some teach people who are involved with conservation projects.'],['E','Some specialise in caring for species which are under threat.']]},
+{kind:'multi',type:'Multiple choice (2 answers)',range:[25,26],instr:'Choose <b>TWO</b> letters, <b>A–E</b>.',stem:'Which TWO of these beliefs about zoos does the writer mention in the text?',opts:[['A','They can help children overcome their fears of wild animals.'],['B','They can increase public awareness of environmental issues.'],['C','They can provide employment for a range of professional people.'],['D','They can generate income to support wildlife conservation projects.'],['E','They can raise animals which can later be released into the wild.']]}
+]},
+{n:3,range:[27,40],title:'Motivational factors and the hospitality industry',sub:'',
+paras:[
+['','A critical ingredient in the success of hotels is developing and maintaining superior performance from their employees. How is that accomplished? What Human Resource Management (HRM) practices should organizations invest in to acquire and retain great employees?'],
+['','Some hotels aim to provide superior working conditions for their employees. The idea originated from workplaces – usually in the non-service sector – that emphasized fun and enjoyment as part of work-life balance. By contrast, the service sector, and more specifically hotels, has traditionally not extended these practices to address basic employee needs, such as good working conditions.'],
+['','Pfeffer (1994) emphasizes that in order to succeed in a global business environment, organizations must make investment in Human Resource Management (HRM) to allow them to acquire employees who possess better skills and capabilities than their competitors. This investment will be to their competitive advantage. Despite this recognition of the importance of employee development, the hospitality industry has historically been dominated by underdeveloped HR practices (Lucas, 2002).'],
+['','Lucas also points out that ‘the substance of HRM practices does not appear to be designed to foster constructive relations with employees or to represent a managerial approach that enables developing and drawing out the full potential of people, even though employees may be broadly satisfied with many aspects of their work’ (Lucas, 2002). In addition, or maybe as a result, high employee turnover has been a recurring problem throughout the hospitality industry. Among the many cited reasons are low compensation, inadequate benefits, poor working conditions and compromised employee morale and attitudes (Maroudas et al., 2008).'],
+['','Ng and Sorensen (2008) demonstrated that when managers provide recognition to employees, motivate employees to work together, and remove obstacles preventing effective performance, employees feel more obligated to stay with the company. This was succinctly summarized by Michel et al. (2013): ‘[P]roviding support to employees gives them the confidence to perform their jobs better and the motivation to stay with the organization.’ Hospitality organizations can therefore enhance employee motivation and retention through the development and improvement of their working conditions. These conditions are inherently linked to the working environment.'],
+['','While it seems likely that employees’ reactions to their job characteristics could be affected by a predisposition to view their work environment negatively, no evidence exists to support this hypothesis (Spector et al., 2000). However, given the opportunity, many people will find something to complain about in relation to their workplace (Poulston, 2009). There is a strong link between the perceptions of employees and particular factors of their work environment that are separate from the work itself, including company policies, salary and vacations.'],
+['','Such conditions are particularly troubling for the luxury hotel market, where high-quality service, requiring a sophisticated approach to HRM, is recognized as a critical source of competitive advantage (Maroudas et al., 2008). In a real sense, the services of hotel employees represent their industry (Schneider and Bowen, 1993). This representation has commonly been limited to guest experiences. This suggests that there has been a dichotomy between the guest environment provided in luxury hotels and the working conditions of their employees.'],
+['','It is therefore essential for hotel management to develop HRM practices that enable them to inspire and retain competent employees. This requires an understanding of what motivates employees at different levels of management and different stages of their careers (Enz and Siguaw, 2000). This implies that it is beneficial for hotel managers to understand what practices are most favorable to increase employee satisfaction and retention.'],
+['','Herzberg (1966) proposes that people have two major types of needs, the first being extrinsic motivation factors relating to the context in which work is performed, rather than the work itself. These include working conditions and job security. When these factors are unfavorable, job dissatisfaction may result. Significantly, though, just fulfilling these needs does not result in satisfaction, but only in the reduction of dissatisfaction (Maroudas et al., 2008).'],
+['','Employees also have intrinsic motivation needs or motivators, which include such factors as achievement and recognition. Unlike extrinsic factors, motivator factors may ideally result in job satisfaction (Maroudas et al., 2008). Herzberg’s (1966) theory discusses the need for a ‘balance’ of these two types of needs.'],
+['','The impact of fun as a motivating factor at work has also been explored. For example, Tews, Michel and Stafford (2013) conducted a study focusing on staff from a chain of themed restaurants in the United States. It was found that fun activities had a favorable impact on performance and manager support for fun had a favorable impact in reducing turnover. Their findings support the view that fun may indeed have a beneficial effect, but the framing of that fun must be carefully aligned with both organizational goals and employee characteristics. ‘Managers must learn how to achieve the delicate balance of allowing employees the freedom to enjoy themselves at work while simultaneously maintaining high levels of performance’ (Tews et al., 2013).'],
+['','Deery (2008) has recommended several actions that can be adopted at the organizational level to retain good staff as well as assist in balancing work and family life. Those particularly appropriate to the hospitality industry include allowing adequate breaks during the working day, staff functions that involve families, and providing health and well-being opportunities.']
+],
+groups:[
+{kind:'select',type:'Matching features',range:[27,31],instr:'Look at the following statements (Questions 27–31) and the list of researchers below. Match each statement with the correct researcher, <b>A–F</b>. <i>NB You may use any letter more than once.</i>',box:{title:'List of Researchers',items:[['A','Pfeffer'],['B','Lucas'],['C','Maroudas et al.'],['D','Ng and Sorensen'],['E','Enz and Siguaw'],['F','Deery']]},items:[[27,'Hotel managers need to know what would encourage good staff to remain.'],[28,'The actions of managers may make staff feel they shouldn’t move to a different employer.'],[29,'Little is done in the hospitality industry to help workers improve their skills.'],[30,'Staff are less likely to change jobs if cooperation is encouraged.'],[31,'Dissatisfaction with pay is not the only reason why hospitality workers change jobs.']]},
+{kind:'radio',type:'YES / NO / NOT GIVEN',range:[32,35],instr:'Do the following statements agree with the claims of the writer in Reading Passage 3? Choose <b>YES</b> if the statement agrees with the claims of the writer, <b>NO</b> if the statement contradicts the claims of the writer, <b>NOT GIVEN</b> if it is impossible to say what the writer thinks about this.',opts:YNNG,items:[[32,'Low staff morale is identified as a factor contributing to high employee turnover.'],[33,'There is scientific proof that employees are naturally inclined to have a negative view of their work environment.'],[34,'Meeting the physical and security needs of employees is enough to make them feel satisfied with their jobs.'],[35,'Hospitality workers should be given the autonomy to decide their own break schedules.']]},
+{kind:'gaps',type:'Summary completion',range:[36,40],instr:'Complete the summary below. Choose <b>ONE WORD ONLY</b> from the passage for each answer.',title:'Fun at work',text:'Tews, Michel and Stafford carried out research on staff in an American chain of {36}. They discovered that activities designed for staff to have fun improved their {37}, and that management involvement led to lower staff {38}. They also found that the activities needed to fit with both the company’s {39} and the {40} of the staff. A balance was required between a degree of freedom and maintaining work standards.'}
+]}
+]},
+
+t2:{id:'t2',name:'Đề 2',parts:[
+{n:1,range:[1,13],title:'How baby talk gives infant brains a boost',sub:'',
+paras:[
+['A','The typical way of talking to a baby – high-pitched, exaggerated and repetitious – is a source of fascination for linguists who hope to understand how ‘baby talk’ impacts on learning. Most babies start developing their hearing while still in the womb, prompting some hopeful parents to play classical music to their pregnant bellies. Some research even suggests that infants are listening to adult speech as early as 10 weeks before being born, gathering the basic building blocks of their family’s native tongue.'],
+['B','Early language exposure seems to have benefits to the brain – for instance, studies suggest that babies raised in bilingual homes are better at learning how to mentally prioritize information. So how does the sweet if sometimes absurd sound of infant-directed speech influence a baby’s development? Here are some recent studies that explore the science behind baby talk.'],
+['C','Fathers don’t use baby talk as often or in the same ways as mothers – and that’s perfectly OK, according to a new study. Mark VanDam of Washington State University at Spokane and colleagues equipped parents with recording devices and speech-recognition software to study the way they interacted with their youngsters during a normal day. ‘We found that moms do exactly what you’d expect and what’s been described many times over,’ VanDam explains. ‘But we found that dads aren’t doing the same thing. Dads didn’t raise their pitch or fundamental frequency when they talked to kids.’ Their role may be rooted in what is called the bridge hypothesis, which dates back to 1975. It suggests that fathers use less familial language to provide their children with a bridge to the kind of speech they’ll hear in public. ‘The idea is that a kid gets to practice a certain kind of speech with mom and another kind of speech with dad, so the kid then has a wider repertoire of kinds of speech to practice,’ says VanDam.'],
+['D','Scientists from the University of Washington and the University of Connecticut collected thousands of 30-second conversations between parents and their babies, fitting 26 children with audio-recording vests that captured language and sound during a typical eight-hour day. The study found that the more baby talk parents used, the more their youngsters began to babble. And when researchers saw the same babies at age two, they found that frequent baby talk had dramatically boosted vocabulary, regardless of socioeconomic status. ‘Those children who listened to a lot of baby talk were talking more than the babies that listened to more adult talk or standard speech,’ says Nairán Ramírez-Esparza of the University of Connecticut. ‘We also found that it really matters whether you use baby talk in a one-on-one context,’ she adds. ‘The more parents use baby talk one-on-one, the more babies babble, and the more they babble, the more words they produce later in life.’'],
+['E','Another study suggests that parents might want to pair their youngsters up so they can babble more with their own kind. Researchers from McGill University and Université du Québec à Montréal found that babies seem to like listening to each other rather than to adults – which may be why baby talk is such a universal tool among parents. They played repeating vowel sounds made by a special synthesizing device that mimicked sounds made by either an adult woman or another baby. This way, only the impact of the auditory cues was observed. The team then measured how long each type of sound held the infants’ attention. They found that the ‘infant’ sounds held babies’ attention nearly 40 percent longer. The baby noises also induced more reactions in the listening infants, like smiling or lip moving, which approximates sound making. The team theorizes that this attraction to other infant sounds could help launch the learning process that leads to speech. ‘It may be some property of the sound that is just drawing their attention,’ says study co-author Linda Polka. ‘Or maybe they are really interested in that particular type of sound because they are starting to focus on their own ability to make sounds. We are speculating here but it might catch their attention because they recognize it as a sound they could possibly make.’'],
+['F','In a study published in <i>Proceedings of the National Academy of Sciences</i>, a total of 57 babies from two slightly different age groups – seven months and eleven and a half months – were played a number of syllables from both their native language (English) and a non-native tongue (Spanish). The infants were placed in a brain-activation scanner that recorded activity in a brain region known to guide the motor movements that produce speech. The results suggest that listening to baby talk prompts infant brains to start practicing their language skills. ‘Finding activation in motor areas of the brain when infants are simply listening is significant, because it means the baby brain is engaged in trying to talk back right from the start, and suggests that seven-month-olds’ brains are already trying to figure out how to make the right movements that will produce words,’ says co-author Patricia Kuhl. Another interesting finding was that while the seven-month-olds responded to all speech sounds regardless of language, the brains of the older infants worked harder at the motor activations of non-native sounds compared to native sounds. The study may have also uncovered a process by which babies recognize differences between their native language and other tongues.']
+],
+groups:[
+{kind:'select',type:'Matching features',range:[1,4],instr:'Look at the following ideas (Questions 1–4) and the list of researchers below. Match each idea with the correct researcher, <b>A, B or C</b>. <i>NB You may use any letter more than once.</i>',box:{title:'List of Researchers',items:[['A','Mark VanDam'],['B','Nairán Ramírez-Esparza'],['C','Patricia Kuhl']]},items:[[1,'the importance of adults giving babies individual attention when talking to them'],[2,'the connection between what babies hear and their own efforts to create speech'],[3,'the advantage for the baby of having two parents each speaking in a different way'],[4,'the connection between the amount of baby talk babies hear and how much vocalising they do themselves']]},
+{kind:'gaps',type:'Summary completion',range:[5,10],instr:'Complete the summary below. Choose <b>NO MORE THAN TWO WORDS</b> from the passage for each answer.',title:'Research into how parents talk to babies',text:'Researchers at Washington State University used {5}, together with specialised computer programs, to analyse how parents interacted with their babies during a normal day. The study revealed that {6} tended not to modify their ordinary speech patterns when interacting with their babies. According to an idea known as the {7}, they may use a more adult type of speech to prepare infants for the language they will hear outside the family home. According to the researchers, hearing baby talk from one parent and ‘normal’ language from the other expands the baby’s {8} of types of speech which they can practise.<br><br>Meanwhile, another study carried out by scientists from the University of Washington and the University of Connecticut recorded speech and sound using special {9} that the babies were equipped with. When they studied the babies again at age two, they found that those who had heard a lot of baby talk in infancy had a much larger {10} than those who had not.'},
+{kind:'select',type:'Matching information',range:[11,13],instr:'Reading Passage 1 has six paragraphs, <b>A–F</b>. Which paragraph contains the following information? Choose the correct letter, <b>A–F</b>.',opts:L('ABCDEF'),items:[[11,'a reference to a change which occurs in babies’ brain activity before the end of their first year'],[12,'an example of what some parents do for their baby’s benefit before birth'],[13,'a mention of babies’ preference for the sounds that other babies make']]}
+]},
+{n:2,range:[14,26],title:'Saving bugs to find new drugs',sub:'Zoologist Ross Piper looks at the potential of insects in pharmaceutical research',
+paras:[
+['A','More drugs than you might think are derived from, or inspired by, compounds found in living things. Looking to nature for the soothing and curing of our ailments is nothing new – we have been doing it for tens of thousands of years. You only have to look at other primates – such as the capuchin monkeys who rub themselves with toxin-oozing millipedes to deter mosquitoes, or the chimpanzees who use noxious forest plants to rid themselves of intestinal parasites – to realise that our ancient ancestors too probably had a basic grasp of medicine.'],
+['B','Pharmaceutical science and chemistry built on these ancient foundations and perfected the extraction, characterization, modification and testing of these natural products. Then, for a while, modern pharmaceutical science moved its focus away from nature and into the laboratory, designing chemical compounds from scratch. The main cause of this shift is that although there are plenty of promising chemical compounds in nature, finding them is far from easy. Securing sufficient numbers of the organism in question, isolating and characterizing the compounds of interest, and producing large quantities of these compounds are all significant hurdles.'],
+['C','Laboratory-based drug discovery has achieved varying levels of success, something which has now prompted the development of new approaches focusing once again on natural products. With the ability to mine genomes for useful compounds, it is now evident that we have barely scratched the surface of nature’s molecular diversity. This realization, together with several looming health crises, such as antibiotic resistance, has put bioprospecting – the search for useful compounds in nature – firmly back on the map.'],
+['D','Insects are the undisputed masters of the terrestrial domain, where they occupy every possible niche. Consequently, they have a bewildering array of interactions with other organisms, something which has driven the evolution of an enormous range of very interesting compounds for defensive and offensive purposes. Their remarkable diversity exceeds that of every other group of animals on the planet combined. Yet even though insects are far and away the most diverse animals in existence, their potential as sources of therapeutic compounds is yet to be realised.'],
+['E','From the tiny proportion of insects that have been investigated, several promising compounds have been identified. For example, alloferon, an antimicrobial compound produced by blow fly larvae, is used as an antiviral and antitumor agent in South Korea and Russia. The larvae of a few other insect species are being investigated for the potent antimicrobial compounds they produce. Meanwhile, a compound from the venom of the wasp <i>Polybia paulista</i> has potential in cancer treatment.'],
+['F','Why is it that insects have received relatively little attention in bioprospecting? Firstly, there are so many insects that, without some manner of targeted approach, investigating this huge variety of species is a daunting task. Secondly, insects are generally very small, and the glands inside them that secrete potentially useful compounds are smaller still. This can make it difficult to obtain sufficient quantities of the compound for subsequent testing. Thirdly, although we consider insects to be everywhere, the reality of this ubiquity is vast numbers of a few extremely common species. Many insect species are infrequently encountered and very difficult to rear in captivity, which, again, can leave us with insufficient material to work with.'],
+['G','My colleagues and I at Aberystwyth University in the UK have developed an approach in which we use our knowledge of ecology as a guide to target our efforts. The creatures that particularly interest us are the many insects that secrete powerful poison for subduing prey and keeping it fresh for future consumption. There are even more insects that are masters of exploiting filthy habitats, such as faeces and carcasses, where they are regularly challenged by thousands of micro-organisms. These insects have many antimicrobial compounds for dealing with pathogenic bacteria and fungi, suggesting that there is certainly potential to find many compounds that can serve as or inspire new antibiotics.'],
+['H','Although natural history knowledge points us in the right direction, it doesn’t solve the problems associated with obtaining useful compounds from insects. Fortunately, it is now possible to snip out the stretches of the insect’s DNA that carry the codes for the interesting compounds and insert them into cell lines that allow larger quantities to be produced. And although the road from isolating and characterizing compounds with desirable qualities to developing a commercial product is very long and full of pitfalls, the variety of successful animal-derived pharmaceuticals on the market demonstrates there is a precedent here that is worth exploring.'],
+['I','With every bit of wilderness that disappears, we deprive ourselves of potential medicines. As much as I’d love to help develop a groundbreaking insect-derived medicine, my main motivation for looking at insects in this way is conservation. I sincerely believe that all species, however small and seemingly insignificant, have a right to exist for their own sake. If we can shine a light on the darker recesses of nature’s medicine cabinet, exploring the useful chemistry of the most diverse animals on the planet, I believe we can make people think differently about the value of nature.']
+],
+groups:[
+{kind:'select',type:'Matching information',range:[14,20],instr:'Reading Passage 2 has nine paragraphs, <b>A–I</b>. Which paragraph contains the following information? Choose the correct letter, <b>A–I</b>.',opts:L('ABCDEFGHI'),items:[[14,'mention of factors driving a renewed interest in natural medicinal compounds'],[15,'how recent technological advances have made insect research easier'],[16,'examples of animals which use medicinal substances from nature'],[17,'reasons why it is challenging to use insects in drug research'],[18,'reference to how interest in drug research may benefit wildlife'],[19,'a reason why nature-based medicines fell out of favour for a period'],[20,'an example of an insect-derived medicine in use at the moment']]},
+{kind:'multi',type:'Multiple choice (2 answers)',range:[21,22],instr:'Choose <b>TWO</b> letters, <b>A–E</b>.',stem:'Which TWO of the following make insects interesting for drug research?',opts:[['A','the huge number of individual insects in the world'],['B','the variety of substances insects have developed to protect themselves'],['C','the potential to extract and make use of insects’ genetic codes'],['D','the similarities between different species of insect'],['E','the manageable size of most insects']]},
+{kind:'gaps',type:'Summary completion',range:[23,26],instr:'Complete the summary below. Choose <b>ONE WORD ONLY</b> from the passage for each answer.',title:'Research at Aberystwyth University',text:'Ross Piper and fellow zoologists at Aberystwyth University are using their expertise in {23} when undertaking bioprospecting with insects. They are especially interested in the compounds that insects produce to overpower and preserve their {24}. They are also interested in compounds which insects use to protect themselves from pathogenic bacteria and fungi found in their {25}. Piper hopes that these substances will be useful in the development of drugs such as {26}.'}
+]},
+{n:3,range:[27,40],title:'Why companies should welcome disorder',sub:'',
+paras:[
+['A','Organisation is big business. Whether it is of our lives – all those inboxes and calendars – or how companies are structured, a multi-billion dollar industry helps to meet this need.<br><br>We have more strategies for time management, project management and self-organisation than at any other time in human history. We are told that we ought to organize our company, our home life, our week, our day and even our sleep, all as a means to becoming more productive. Every week, countless seminars and workshops take place around the world to tell a paying public that they ought to structure their lives in order to achieve this.<br><br>This rhetoric has also crept into the thinking of business leaders and entrepreneurs, much to the delight of self-proclaimed perfectionists with the need to get everything right. The number of business schools and graduates has massively increased over the past 50 years, essentially teaching people how to organise well.'],
+['B','Ironically, however, the number of businesses that fail has also steadily increased. Work-related stress has increased. A large proportion of workers from all demographics claim to be dissatisfied with the way their work is structured and the way they are managed.<br><br>This begs the question: what has gone wrong? Why is it that on paper the drive for organisation seems a sure shot for increasing productivity, but in reality falls well short of what is expected?'],
+['C','This has been a problem for a while now. Frederick Taylor was one of the forefathers of scientific management. Writing in the first half of the 20th century, he designed a number of principles to improve the efficiency of the work process, which have since become widespread in modern companies. So the approach has been around for a while.'],
+['D','New research suggests that this obsession with efficiency is misguided. The problem is not necessarily the management theories or strategies we use to organise our work; it’s the basic assumptions we hold in approaching how we work. Here it’s the assumption that order is a necessary condition for productivity. This assumption has also fostered the idea that disorder must be detrimental to organisational productivity. The result is that businesses and people spend time and money organising themselves for the sake of organising, rather than actually looking at the end goal and usefulness of such an effort.'],
+['E','What’s more, recent studies show that order actually has diminishing returns. Order does increase productivity to a certain extent, but eventually the usefulness of the process of organisation, and the benefit it yields, reduce until the point where any further increase in order reduces productivity. Some argue that in a business, if the cost of formally structuring something outweighs the benefit of doing it, then that thing ought not to be formally structured. Instead, the resources involved can be better used elsewhere.'],
+['F','In fact, research shows that, when innovating, the best approach is to create an environment devoid of structure and hierarchy and enable everyone involved to engage as one organic group. These environments can lead to new solutions that, under conventionally structured environments (filled with bottlenecks in terms of information flow, power structures, rules, and routines) would never be reached.'],
+['G','In recent times companies have slowly started to embrace this disorganisation. Many of them embrace it in terms of perception (embracing the idea of disorder, as opposed to fearing it) and in terms of process (putting mechanisms in place to reduce structure).<br><br>For example, Oticon, a large Danish manufacturer of hearing aids, used what it called a ‘spaghetti’ structure in order to reduce the organisation’s rigid hierarchies. This involved scrapping formal job titles and giving staff huge amounts of ownership over their own time and projects. This approach proved to be highly successful initially, with clear improvements in worker productivity in all facets of the business.<br><br>In similar fashion, the former chairman of General Electric embraced disorganisation, putting forward the idea of the ‘boundaryless’ organisation. Again, it involves breaking down the barriers between different parts of a company and encouraging virtual collaboration and flexible working. Google and a number of other tech companies have embraced (at least in part) these kinds of flexible structures, facilitated by technology and strong company values which glue people together.'],
+['H','A word of warning to others thinking of jumping on this bandwagon: the evidence so far suggests disorder, much like order, also seems to have diminishing utility, and can also have detrimental effects on performance if overused. Like order, disorder should be embraced only so far as it is useful. But we should not fear it – nor venerate one over the other. This research also shows that we should continually question whether or not our existing assumptions work.']
+],
+groups:[
+{kind:'select',type:'Matching headings',range:[27,34],instr:'Reading Passage 3 has eight sections, <b>A–H</b>. Choose the correct heading for each section from the list of headings below. Choose the correct number, <b>i–ix</b>.',box:{title:'List of Headings',items:H9},items:[[27,'Section A'],[28,'Section B'],[29,'Section C'],[30,'Section D'],[31,'Section E'],[32,'Section F'],[33,'Section G'],[34,'Section H']]},
+{kind:'sent',type:'Sentence completion',range:[35,37],instr:'Complete the sentences below. Choose <b>ONE WORD ONLY</b> from the passage for each answer.',items:[[35,'Numerous training sessions are aimed at people who feel they are not {35} enough.'],[36,'Being organised appeals to people who regard themselves as {36}.'],[37,'Many people feel {37} with aspects of their work.']]},
+{kind:'radio',type:'TRUE / FALSE / NOT GIVEN',range:[38,40],instr:'Do the following statements agree with the information given in Reading Passage 3? Choose <b>TRUE</b> if the statement agrees with the information, <b>FALSE</b> if the statement contradicts the information, <b>NOT GIVEN</b> if there is no information on this.',opts:TFNG,items:[[38,'Both businesses and people aim at order without really considering its value.'],[39,'Innovation is most successful if the people involved have distinct roles.'],[40,'Google was inspired to adopt flexibility by the success of General Electric.']]}
+]}
+]}
+};
+
+</script>
+<script>
+/* ============ CONSTANTS & HELPERS ============ */
+const TOTAL_MS=60*60*1000;
+const BANNER='data:image/webp;base64,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';
+const BANDS=[[39,9],[37,8.5],[35,8],[33,7.5],[30,7],[27,6.5],[23,6],[19,5.5],[15,5],[13,4.5],[10,4],[8,3.5],[6,3],[4,2.5],[2,2],[1,1],[0,0]];
+const band=s=>{for(const[m,b]of BANDS)if(s>=m)return b;return 0};
+const fmtBand=b=>Number.isInteger(b)?b+'.0':String(b);
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const app=$('#app');
+let toastT;function toast(m){const t=$('#toast');t.textContent=m;t.hidden=false;clearTimeout(toastT);toastT=setTimeout(()=>t.hidden=true,2600)}
+const lsGet=k=>{try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}};
+const lsSet=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+const fmtClock=ms=>{ms=Math.max(0,ms);const m=Math.floor(ms/60000),s=Math.floor(ms%60000/1000);return String(m).padStart(2,'0')+':'+String(s).padStart(2,'0')};
+const fmtTime=t=>t?new Date(t).toLocaleString('vi-VN',{hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit',year:'numeric'}):'—';
+const fmtDur=sec=>sec==null?'—':Math.floor(sec/60)+' ph '+String(Math.round(sec%60)).padStart(2,'0')+' s';
+const words=s=>(s.trim().match(/\S+/g)||[]).length;
+const bannerHTML=h=>`<span class="banner"><img src="${BANNER}" alt="English Thoughts" height="${h}"></span>`;
+
+/* question index: q -> {part, group, type, kind} */
+const QMAP={};
+for(const t of Object.values(TESTS)){QMAP[t.id]={};t.parts.forEach((p,pi)=>p.groups.forEach(g=>{for(let q=g.range[0];q<=g.range[1];q++)QMAP[t.id][q]={part:pi,g,type:g.type,kind:g.kind}}))}
+const partOf=(tid,q)=>QMAP[tid][q].part;
+
+/* ============ BOOT ============ */
+let db=null,user=null,uid=null,isTeacher=false;
+function brandTop(sub){return `<header class="top"><div class="brand">${bannerHTML(56)}<div class="brand-sub"><b>IELTS Vững Bước</b><small>${sub}</small></div></div></header>`}
+function notice(title,body,extra=''){
+  stopExam();
+  app.innerHTML=`<div class="wrap">${brandTop('Progress Test 2 · Reading')}<div class="notice"><div class="mark" aria-hidden="true"></div><h2>${title}</h2><p>${body}</p>${extra}</div></div>`;
+}
+(async function boot(){
+  const fallback=setTimeout(()=>{if(!db)notice('Chưa kết nối được','Trang chưa kết nối được với hệ thống lưu bài. Em hãy mở trang này trong Claude khi đã đăng nhập, rồi tải lại trang.')},11000);
+  if(!window.claude||!window.claude.use){clearTimeout(fallback);notice('Chưa kết nối được','Trang cần được mở trong Claude khi em đã đăng nhập thì mới lưu được bài làm.');return}
+  [db,user]=await Promise.all([claude.use('db'),claude.use('user')]);
+  clearTimeout(fallback);
+  if(!db||!user){notice('Em cần đăng nhập','Hãy đăng nhập tài khoản Claude mà cô đã mời, rồi mở lại đường link bài kiểm tra.');return}
+  uid=await user.id();
+  try{isTeacher=!!(await user.canEdit())}catch(e){isTeacher=false}
+  if(!uid){notice('Em cần đăng nhập','Hãy đăng nhập tài khoản Claude mà cô đã mời, rồi mở lại đường link bài kiểm tra.');return}
+  window.addEventListener('hashchange',route);
+  route();
+})();
+function route(){
+  if(location.hash==='#giao-vien'){isTeacher?teacher():notice('Trang dành cho giáo viên','Trang tổng hợp kết quả chỉ mở được bằng tài khoản giáo viên.','<a class="btn ghost" href="#">Về trang làm bài</a>')}
+  else{stopTeacher();student()}
+}
+
+/* ============ STUDENT ============ */
+let S=null; // exam state
+async function student(){
+  let snap;
+  try{snap=await db.doc('submissions/'+uid).get()}catch(e){notice('Chưa kết nối được','Hệ thống lưu bài đang bận. Em đợi một chút rồi tải lại trang nhé.');return}
+  const d=snap.exists?snap.data():null;
+  if(d&&d.status==='submitted')return doneScreen(d);
+  if(d&&d.status==='in_progress'&&TESTS[d.testId]){
+    const local=lsGet('pt2-'+uid);
+    let answers={...(d.answers||{})};
+    if(local&&local.testId===d.testId&&(local.at||0)>(d.updatedAt||0))answers={...answers,...local.answers};
+    if(Date.now()>=d.startedAt+TOTAL_MS){S={...d,answers};return submit(true)}
+    return startExam({...d,answers});
+  }
+  startScreen();
+}
+function startScreen(){
+  stopExam();
+  let pick=null;
+  app.innerHTML=`<div class="wrap">${brandTop('Progress Test 2 · Reading')}
+  <section class="start">
+    <div>
+      <div class="eyebrow">Lớp IELTS Vững Bước</div>
+      <h1>Progress Test 2<br><em>Reading</em></h1>
+      <ul class="rules">
+        <li><b class="k">3</b><span><b>3 bài đọc, 40 câu hỏi.</b> Làm trong <b>60 phút</b>; hết giờ, bài tự động được nộp.</span></li>
+        <li><b class="k">1</b><span><b>Chỉ chọn một đề.</b> Sau khi bắt đầu, em không thể đổi hay xem đề còn lại.</span></li>
+        <li><b class="k">✎</b><span><b>Tô sáng:</b> bôi đen chữ trong bài đọc hoặc câu hỏi rồi bấm <i>Tô sáng</i>. Bấm vào chỗ đã tô để xoá.</span></li>
+        <li><b class="k">▦</b><span><b>Thanh câu hỏi ở dưới:</b> câu đã làm có màu đậm. Bấm số câu để chuyển nhanh.</span></li>
+        <li><b class="k">✓</b><span>Bài được lưu liên tục. Kết quả chỉ cô giáo xem được; em sẽ nhận nhận xét sau.</span></li>
+      </ul>
+    </div>
+    <form class="card wm" id="startform" novalidate>
+      <div class="field"><label class="lb" for="sname">Họ và tên</label><input id="sname" autocomplete="name" placeholder="VD: Nguyễn Minh Anh" maxlength="60"></div>
+      <div class="field"><span class="lb" style="font-weight:700;font-size:14px">Chọn đề</span>
+        <div class="choices">${Object.values(TESTS).map(t=>`<button type="button" class="choice" data-t="${t.id}" aria-pressed="false"><b>${t.name}</b><small>3 passages · 40 câu · 60 phút</small></button>`).join('')}</div>
+      </div>
+      <div class="err" id="serr" hidden></div>
+      <button class="btn pink" type="submit" id="sgo">Bắt đầu làm bài</button>
+      <p class="hint" style="margin:0">Em đang làm Progress Test 2 – Lớp IELTS Vững Bước. Giáo viên: Hoàng Hải Hà.</p>
+    </form>
+  </section>
+  ${isTeacher?'<div class="foot"><span>Bạn đang xem bằng tài khoản giáo viên.</span><a href="#giao-vien">Mở trang giáo viên →</a></div>':''}</div>`;
+  const draftName=lsGet('pt2-name');if(draftName)$('#sname').value=draftName;
+  $$('.choice').forEach(b=>b.onclick=()=>{pick=b.dataset.t;$$('.choice').forEach(x=>x.setAttribute('aria-pressed',x===b))});
+  $('#startform').onsubmit=e=>{
+    e.preventDefault();
+    const name=$('#sname').value.trim().replace(/\s+/g,' ');
+    const err=$('#serr');
+    if(name.length<2){err.textContent='Em hãy nhập họ và tên.';err.hidden=false;$('#sname').focus();return}
+    if(!pick){err.textContent='Em hãy chọn một đề.';err.hidden=false;return}
+    err.hidden=true;lsSet('pt2-name',name);
+    confirmDlg(`Bắt đầu ${TESTS[pick].name}?`,`<p><b>${esc(name)}</b>, sau khi bấm bắt đầu, đồng hồ 60 phút sẽ chạy và em <b>không thể đổi sang đề khác</b>.</p>`,'Bắt đầu',async()=>{
+      const doc={name,testId:pick,status:'in_progress',startedAt:Date.now(),updatedAt:Date.now(),answers:{}};
+      try{await db.doc('submissions/'+uid).set(doc)}
+      catch(e){err.textContent=e&&e.code==='invalid_argument'?'Tài khoản của em chưa được cấp quyền nộp bài. Em nhờ cô thêm em với vai trò "Contributor" nhé.':'Chưa lưu được. Em thử lại sau ít giây.';err.hidden=false;return false}
+      startExam(doc);
+    });
+  };
+}
+function confirmDlg(title,html,okLabel,onOk,cancelLabel='Quay lại'){
+  const m=document.createElement('div');m.className='modal';
+  m.innerHTML=`<div class="dlg" role="dialog" aria-modal="true" aria-labelledby="dlgt"><h3 id="dlgt">${title}</h3>${html}<div class="acts"><button class="btn ghost" type="button" data-x>${cancelLabel}</button><button class="btn pink" type="button" data-ok>${okLabel}</button></div></div>`;
+  document.body.appendChild(m);
+  const close=()=>m.remove();
+  m.querySelector('[data-x]').onclick=close;
+  m.addEventListener('click',e=>{if(e.target===m)close()});
+  const ok=m.querySelector('[data-ok]');ok.focus();
+  ok.onclick=async()=>{ok.disabled=true;const r=await onOk();if(r===false){ok.disabled=false;return}close()};
+}
+function doneScreen(d){
+  stopExam();
+  const t=TESTS[d.testId];const n=Object.values(d.answers||{}).filter(v=>v).length;
+  app.innerHTML=`<div class="wrap">${brandTop('Progress Test 2 · Reading')}<div class="notice"><div class="mark" aria-hidden="true"></div>
+  <div class="eyebrow">Đã nộp bài</div><h2>Cảm ơn ${esc(d.name)}!</h2>
+  <p>Bài làm của em đã được gửi tới cô. Điểm và nhận xét sẽ được cô thông báo sau khi chấm.</p>
+  <div class="receipt"><span>Đề</span><b>${t?t.name:'—'}</b><span>Số câu đã làm</span><b>${n}/40</b><span>Nộp lúc</span><b>${fmtTime(d.submittedAt)}</b>${d.auto?'<span>Ghi chú</span><b>Tự nộp khi hết giờ</b>':''}</div>
+  </div>${isTeacher?'<div class="foot"><span>Bạn đang xem bằng tài khoản giáo viên.</span><a href="#giao-vien">Mở trang giáo viên →</a></div>':''}</div>`;
+}
+
+/* ---------- exam rendering ---------- */
+function renderPassage(p){
+  return `<article class="passage" data-part="${p.n-1}" ${p.n>1?'hidden':''}>
+  <div class="eyebrow">Reading Passage ${p.n}</div>
+  <h2 class="ptitle">${p.title}</h2>${p.sub?`<p class="psub">${p.sub}</p>`:''}
+  ${p.paras.map(([l,t])=>`<div class="para ${l?'':'nolab'}">${l?`<span class="pl">${l}</span>`:''}<p>${t}</p></div>`).join('')}
+  </article>`;
+}
+function selOpts(g){return g.box?g.box.items.map(x=>x[0]):g.opts.map(x=>x[0])}
+function renderGroup(g,tid){
+  const [a,b]=g.range;
+  const head=`<h4>Questions ${a}${b>a?'–'+b:''}</h4><p class="instr">${g.instr}</p>`;
+  if(g.kind==='select'){
+    const opts=selOpts(g);
+    const box=g.box?`<div class="box"><div class="bt">${g.box.title}</div>${g.box.items.map(([k,v])=>`<div class="it"><b>${k}</b><span>${v}</span></div>`).join('')}</div>`:'';
+    return `<section class="group">${head}${box}${g.items.map(([q,txt])=>`<div class="q inline" id="q-${q}" data-qw="${q}"><span class="qn">${q}</span><span class="stem">${txt}</span><select data-q="${q}" aria-label="Câu ${q}"><option value="">—</option>${opts.map(o=>`<option value="${o}">${o}</option>`).join('')}</select></div>`).join('')}</section>`;
+  }
+  if(g.kind==='radio'){
+    return `<section class="group">${head}${g.items.map(([q,txt])=>`<div class="q" id="q-${q}" data-qw="${q}"><span class="qn">${q}</span><div><p class="stem">${txt}</p><div class="radios" role="radiogroup" aria-label="Câu ${q}">${g.opts.map(o=>`<label><input type="radio" name="r${q}" value="${o}" data-q="${q}">${o}</label>`).join('')}</div></div></div>`).join('')}</section>`;
+  }
+  if(g.kind==='multi'){
+    return `<section class="group">${head}<div class="q" id="q-${a}" data-qw="${a}" data-qw2="${b}"><span class="qn" id="q-${b}">${a}</span><div><div class="multihead"><span class="stem" style="margin:0"><b>Questions ${a} and ${b}.</b> ${g.stem}</span></div><div class="checks" style="margin-top:8px">${g.opts.map(([k,v])=>`<label><input type="checkbox" value="${k}" data-multi="${a}-${b}"><b>${k}</b><span>${v}</span></label>`).join('')}</div></div></div></section>`;
+  }
+  const gap=q=>`<span class="gap" id="q-${q}" data-qw="${q}"><span class="gn">${q}</span><input type="text" data-q="${q}" aria-label="Câu ${q}" autocomplete="off" autocapitalize="off" spellcheck="false"></span>`;
+  if(g.kind==='gaps'){
+    return `<section class="group">${head}<div class="summary"><span class="st">${g.title}</span>${g.text.replace(/\{(\d+)\}/g,(_,q)=>gap(q))}</div></section>`;
+  }
+  if(g.kind==='sent'){
+    return `<section class="group">${head}${g.items.map(([q,txt])=>`<p class="sentq" style="margin:0">${txt.replace(/\{(\d+)\}/g,(_,x)=>gap(x))}</p>`).join('')}</section>`;
+  }
+}
+function renderQuestions(p,tid){
+  return `<div class="qset" data-part="${p.n-1}" ${p.n>1?'hidden':''}><div class="qhead"><h3>Part ${p.n}</h3><span class="muted" style="font-size:13px">Questions ${p.range[0]}–${p.range[1]}</span></div>${p.groups.map(g=>renderGroup(g,tid)).join('')}</div>`;
+}
+function startExam(d){
+  stopExam();
+  S={...d,answers:{...(d.answers||{})},part:0,dirty:false,saving:false,saveT:null,tick:null,submitting:false,cur:null};
+  const t=TESTS[d.testId];
+  document.body.classList.add('exam-mode');
+  app.innerHTML=`<div class="exam">
+  <header class="xbar">${bannerHTML(40)}<div class="xinfo"><b><span class="long">Progress Test 2 · Reading · </span>${t.name}</b><small>${esc(d.name)} · IELTS Vững Bước</small></div>
+    <span class="save" id="savest" aria-live="polite"></span>
+    <div class="timer" id="timer" role="timer" aria-label="Thời gian còn lại"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg><span id="clock">60:00</span></div>
+    <button class="btn pink" id="submitBtn" type="button">Nộp bài</button></header>
+  <div class="mtabs" id="mtabs"><button type="button" data-v="p" aria-pressed="true">Bài đọc</button><button type="button" data-v="q" aria-pressed="false">Câu hỏi</button></div>
+  <div class="xmain" id="xmain" data-show="p">
+    <section class="pane ppane wm hlz" id="ppane" aria-label="Bài đọc">${t.parts.map(renderPassage).join('')}</section>
+    <div class="divider" id="divider" role="separator" aria-orientation="vertical" aria-label="Kéo để đổi độ rộng hai cột" tabindex="0"></div>
+    <section class="pane qpane hlz" id="qpane" aria-label="Câu hỏi">${t.parts.map(p=>renderQuestions(p,t.id)).join('')}</section>
+  </div>
+  <footer class="xnav"><nav class="parts" id="parts" aria-label="Chuyển câu hỏi">${t.parts.map((p,i)=>`<div class="part ${i===0?'cur':''}" data-pi="${i}"><button type="button" class="pn" data-pi="${i}">Part ${p.n}</button><span class="cnt" data-cnt="${i}"></span><div class="nums">${Array.from({length:p.range[1]-p.range[0]+1},(_,k)=>p.range[0]+k).map(q=>`<button type="button" data-go="${q}" aria-label="Câu ${q}">${q}</button>`).join('')}</div></div>`).join('')}</nav>
+  <div class="legend"><span><i class="d"></i>Đã làm</span><span><i></i>Chưa làm</span></div></footer></div>`;
+  // restore answers
+  for(const[q,v]of Object.entries(S.answers)){if(!v)continue;
+    const el=$(`[data-q="${q}"]`);
+    if(el){if(el.type==='radio'){const r=$(`input[name="r${q}"][value="${CSS.escape(v)}"]`);if(r)r.checked=true}else el.value=v}
+  }
+  $$('[data-multi]').forEach(cb=>{const[a,b]=cb.dataset.multi.split('-');if(S.answers[a]===cb.value||S.answers[b]===cb.value)cb.checked=true});
+  const qp=$('#qpane');
+  qp.addEventListener('input',onAnswer);qp.addEventListener('change',onAnswer);
+  $('#parts').addEventListener('click',e=>{const g=e.target.closest('[data-go]');if(g)return goQ(+g.dataset.go);const p=e.target.closest('[data-pi]');if(p)setPart(+p.dataset.pi)});
+  $('#mtabs').addEventListener('click',e=>{const b=e.target.closest('[data-v]');if(!b)return;$('#xmain').dataset.show=b.dataset.v;$$('#mtabs button').forEach(x=>x.setAttribute('aria-pressed',x===b))});
+  $('#submitBtn').onclick=askSubmit;
+  qp.addEventListener('focusin',e=>{const w=e.target.closest('[data-qw]');if(w){S.cur=+w.dataset.qw;paintNav()}});
+  setupDivider();
+  updateMarks();paintNav();tickClock();
+  S.tick=setInterval(tickClock,1000);
+  window.addEventListener('beforeunload',flushLocal);
+}
+function stopExam(){
+  if(S){clearInterval(S.tick);clearTimeout(S.saveT)}
+  document.body.classList.remove('exam-mode');
+  $('#hltool').hidden=true;
+}
+function onAnswer(e){
+  const el=e.target;
+  if(el.dataset.multi){
+    const[a,b]=el.dataset.multi.split('-');
+    const boxes=$$(`[data-multi="${el.dataset.multi}"]`);
+    if(boxes.filter(x=>x.checked).length>2){el.checked=false;toast('Chỉ chọn 2 đáp án cho câu '+a+'–'+b+'.');return}
+    const vals=boxes.filter(x=>x.checked).map(x=>x.value).sort();
+    S.answers[a]=vals[0]||'';S.answers[b]=vals[1]||'';
+  }else if(el.dataset.q){
+    S.answers[el.dataset.q]=el.type==='text'?el.value.trim():el.value;
+  }else return;
+  updateMarks();paintNav();queueSave();
+}
+function answered(q){return !!(S.answers[q]&&String(S.answers[q]).trim())}
+function updateMarks(){
+  $$('[data-qw]').forEach(w=>{const q=w.dataset.qw,q2=w.dataset.qw2;w.classList.toggle('answered',q2?answered(q)&&answered(q2):answered(q))});
+}
+function paintNav(){
+  const t=TESTS[S.testId];
+  t.parts.forEach((p,i)=>{let c=0;for(let q=p.range[0];q<=p.range[1];q++)if(answered(q))c++;$(`[data-cnt="${i}"]`).textContent=`${c}/${p.range[1]-p.range[0]+1}`});
+  $$('#parts [data-go]').forEach(b=>{const q=+b.dataset.go;b.classList.toggle('done',answered(q));b.classList.toggle('here',q===S.cur)});
+  $$('#parts .part').forEach(x=>x.classList.toggle('cur',+x.dataset.pi===S.part));
+}
+function setPart(i){
+  S.part=i;
+  $$('.passage').forEach(x=>x.hidden=+x.dataset.part!==i);
+  $$('.qset').forEach(x=>x.hidden=+x.dataset.part!==i);
+  $('#ppane').scrollTop=0;$('#qpane').scrollTop=0;
+  paintNav();
+}
+function goQ(q){
+  const pi=partOf(S.testId,q);if(pi!==S.part)setPart(pi);
+  const xm=$('#xmain');if(getComputedStyle($('#mtabs')).display!=='none'){xm.dataset.show='q';$$('#mtabs button').forEach(x=>x.setAttribute('aria-pressed',x.dataset.v==='q'))}
+  S.cur=q;paintNav();
+  const el=$('#q-'+q);if(!el)return;
+  const w=el.closest('[data-qw]')||el;
+  w.scrollIntoView({block:'center',behavior:'smooth'});
+  w.classList.remove('flash');void w.offsetWidth;w.classList.add('flash');
+  const inp=w.querySelector('input:not([type=radio]):not([type=checkbox]),select')||w.querySelector('input');
+  if(inp)setTimeout(()=>inp.focus({preventScroll:true}),250);
+}
+function tickClock(){
+  if(!S)return;
+  const left=S.startedAt+TOTAL_MS-Date.now();
+  const c=$('#clock');if(!c)return;
+  c.textContent=fmtClock(left);
+  const tm=$('#timer');tm.classList.toggle('warn',left<=10*60000&&left>5*60000);tm.classList.toggle('crit',left<=5*60000);
+  if(left<=0&&!S.submitting){clearInterval(S.tick);submit(true)}
+}
+/* autosave: one write at a time, coalesced */
+function flushLocal(){if(S)lsSet('pt2-'+uid,{testId:S.testId,answers:S.answers,at:Date.now()})}
+function setSave(t){const s=$('#savest');if(s)s.textContent=t}
+function queueSave(){S.dirty=true;flushLocal();setSave('Đang lưu…');clearTimeout(S.saveT);S.saveT=setTimeout(doSave,2000)}
+async function doSave(){
+  if(!S||S.submitting)return;
+  if(S.saving){S.saveT=setTimeout(doSave,1500);return}
+  if(!S.dirty)return;
+  S.saving=true;S.dirty=false;
+  const now=Date.now();
+  try{await db.doc('submissions/'+uid).update({answers:{...S.answers},updatedAt:now});setSave('Đã lưu '+new Date(now).toLocaleTimeString('vi-VN',{hour:'2-digit',minute:'2-digit'}))}
+  catch(e){S.dirty=true;setSave('Chưa lưu được – đang thử lại');S.saveT=setTimeout(doSave,5000)}
+  finally{S.saving=false}
+}
+function askSubmit(){
+  const miss=[];for(let q=1;q<=40;q++)if(!answered(q))miss.push(q);
+  confirmDlg('Nộp bài?',`<p>Em đã làm <b>${40-miss.length}/40</b> câu. Sau khi nộp, em không thể sửa bài.</p>${miss.length?`<p class="muted" style="font-size:13px">Câu chưa làm:</p><div class="chips">${miss.map(q=>`<span>${q}</span>`).join('')}</div>`:''}`,'Nộp bài',()=>submit(false),'Làm tiếp');
+}
+async function submit(auto){
+  if(!S||S.submitting)return;
+  S.submitting=true;clearTimeout(S.saveT);clearInterval(S.tick);
+  const now=Date.now();
+  const end=Math.min(now,S.startedAt+TOTAL_MS);
+  const body={answers:{...S.answers},status:'submitted',submittedAt:now,updatedAt:now,durationSec:Math.round((end-S.startedAt)/1000),auto:!!auto};
+  if(auto&&$('#clock'))toast('Hết giờ – bài đang được nộp…');
+  for(let i=0;i<4;i++){
+    try{while(S.saving)await new Promise(r=>setTimeout(r,300));await db.doc('submissions/'+uid).update(body);lsSet('pt2-'+uid,null);return doneScreen({...S,...body})}
+    catch(e){await new Promise(r=>setTimeout(r,1500+Math.random()*1000))}
+  }
+  S.submitting=false;
+  notice('Chưa nộp được bài','Mạng đang chập chờn nên bài chưa gửi được. Bài làm vẫn được giữ trên máy này – em bấm nút dưới để gửi lại.','<button class="btn pink" id="retry" type="button">Gửi lại bài</button>');
+  $('#retry').onclick=()=>submit(auto);
+}
+function setupDivider(){
+  const dv=$('#divider'),xm=$('#xmain');
+  const set=f=>{f=Math.min(.72,Math.max(.28,f));xm.style.setProperty('--lw',f+'fr');xm.style.setProperty('--rw',(1-f)+'fr')};
+  const saved=lsGet('pt2-split');if(saved)set(saved);
+  dv.addEventListener('pointerdown',e=>{dv.setPointerCapture(e.pointerId);dv.classList.add('drag');
+    const r=xm.getBoundingClientRect();
+    const mv=ev=>{const f=(ev.clientX-r.left)/r.width;set(f);lsSet('pt2-split',Math.min(.72,Math.max(.28,f)))};
+    const up=()=>{dv.classList.remove('drag');dv.removeEventListener('pointermove',mv);dv.removeEventListener('pointerup',up)};
+    dv.addEventListener('pointermove',mv);dv.addEventListener('pointerup',up);
+  });
+  dv.addEventListener('keydown',e=>{const cur=lsGet('pt2-split')||.5;if(e.key==='ArrowLeft'){set(cur-.04);lsSet('pt2-split',Math.max(.28,cur-.04))}if(e.key==='ArrowRight'){set(cur+.04);lsSet('pt2-split',Math.min(.72,cur+.04))}});
+}
+
+/* ---------- highlighter ---------- */
+const tool=$('#hltool');let hlTarget=null;
+function zoneOf(n){n=n&&(n.nodeType===1?n:n.parentNode);return n&&n.closest&&n.closest('.hlz')}
+function showTool(rect,canAdd,canDel){
+  $('#hl-add').hidden=!canAdd;$('#hl-del').hidden=!canDel;
+  tool.hidden=false;
+  const w=tool.offsetWidth,h=tool.offsetHeight;
+  let x=rect.left+rect.width/2-w/2, y=rect.top-h-8;
+  if(y<8)y=rect.bottom+8;
+  x=Math.max(8,Math.min(innerWidth-w-8,x));
+  tool.style.left=x+'px';tool.style.top=y+'px';
+}
+function checkSel(){
+  if(!document.body.classList.contains('exam-mode'))return;
+  const ae=document.activeElement;if(ae&&/^(INPUT|TEXTAREA|SELECT)$/.test(ae.tagName)){tool.hidden=true;return}
+  const sel=getSelection();
+  if(!sel||sel.rangeCount===0||sel.isCollapsed){if(!hlTarget)tool.hidden=true;return}
+  const r=sel.getRangeAt(0);
+  if(!zoneOf(r.startContainer)||zoneOf(r.startContainer)!==zoneOf(r.endContainer)){tool.hidden=true;return}
+  hlTarget=null;
+  const hasMark=$$('mark.hl',zoneOf(r.commonAncestorContainer)).some(m=>r.intersectsNode(m));
+  showTool(r.getBoundingClientRect(),true,hasMark);
+}
+let selT;document.addEventListener('selectionchange',()=>{clearTimeout(selT);selT=setTimeout(checkSel,180)});
+document.addEventListener('mouseup',()=>setTimeout(checkSel,10));
+document.addEventListener('click',e=>{
+  if(tool.contains(e.target))return;
+  const m=e.target.closest&&e.target.closest('mark.hl');
+  const sel=getSelection();
+  if(m&&sel&&sel.isCollapsed){hlTarget=m;showTool(m.getBoundingClientRect(),false,true);return}
+  if(sel&&sel.isCollapsed){hlTarget=null;tool.hidden=true}
+});
+tool.addEventListener('pointerdown',e=>e.preventDefault());
+$('#hl-add').onclick=()=>{const sel=getSelection();if(!sel.rangeCount)return;wrapRange(sel.getRangeAt(0));sel.removeAllRanges();tool.hidden=true};
+$('#hl-del').onclick=()=>{
+  let marks=[];
+  if(hlTarget)marks=[hlTarget];
+  else{const sel=getSelection();if(sel.rangeCount){const r=sel.getRangeAt(0);marks=$$('mark.hl',zoneOf(r.commonAncestorContainer)||document).filter(m=>r.intersectsNode(m))}}
+  marks.forEach(m=>{const p=m.parentNode;while(m.firstChild)p.insertBefore(m.firstChild,m);m.remove();p.normalize()});
+  hlTarget=null;getSelection().removeAllRanges();tool.hidden=true;
+};
+function wrapRange(range){
+  const root=range.commonAncestorContainer.nodeType===1?range.commonAncestorContainer:range.commonAncestorContainer.parentNode;
+  const tw=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>{
+    if(!range.intersectsNode(n)||!n.nodeValue.trim())return NodeFilter.FILTER_REJECT;
+    if(n.parentNode.closest('mark.hl,select,option,button,label .qn,.qn,.gn'))return NodeFilter.FILTER_REJECT;
+    return NodeFilter.FILTER_ACCEPT}});
+  const jobs=[];while(tw.nextNode()){const n=tw.currentNode;
+    let s=0,e=n.nodeValue.length;
+    if(n===range.startContainer)s=range.startOffset;
+    if(n===range.endContainer)e=range.endOffset;
+    if(s<e)jobs.push([n,s,e])}
+  jobs.forEach(([n,s,e])=>{let t=n;if(s>0)t=t.splitText(s);if(e-s<t.nodeValue.length)t.splitText(e-s);
+    const m=document.createElement('mark');m.className='hl';t.parentNode.insertBefore(m,t);m.appendChild(t)});
+}
+
+/* ============ TEACHER ============ */
+let T=null;
+function stopTeacher(){if(T){T.unsubs.forEach(u=>{try{u()}catch(e){}});T=null}}
+const norm=s=>String(s??'').toLowerCase().normalize('NFKC').replace(/[’‘`]/g,"'").replace(/[-–—_/]/g,' ').replace(/[.,;:!?"()]/g,'').replace(/\s+/g,' ').trim().replace(/^(the|a|an) /,'');
+function grade(sub,key,ov){
+  const tid=sub.testId,ans=sub.answers||{},K=key.answers||{};ov=ov||{};
+  const per={};
+  const pairs=key.pairs||[];const inPair={};pairs.forEach(p=>{inPair[p[0]]=p;inPair[p[1]]=p});
+  for(let q=1;q<=40;q++){
+    const given=String(ans[q]??'').trim();const accepted=(K[q]||[]).map(String);
+    let ok;
+    if(inPair[q]){
+      const[a,b]=inPair[q];const Kset=new Set([...(K[a]||[]),...(K[b]||[])].map(x=>x.toUpperCase()));
+      const Sset=[...new Set([ans[a],ans[b]].filter(Boolean).map(x=>String(x).toUpperCase()))];
+      const hits=Sset.filter(x=>Kset.has(x)).length;
+      ok=q===a?hits>=1:hits>=2;
+      per[q]={given,key:[...Kset].sort().join(' & '),ok};
+    }else{
+      const kind=QMAP[tid][q].kind;
+      if(kind==='gaps'||kind==='sent')ok=given!==''&&accepted.some(a=>norm(a)===norm(given));
+      else ok=given!==''&&accepted.some(a=>a.toUpperCase()===given.toUpperCase());
+      per[q]={given,key:accepted.join(' / '),ok};
+    }
+    per[q].auto=per[q].ok;
+    if(typeof ov[q]==='boolean')per[q].ok=ov[q];
+  }
+  const parts=[0,0,0],ptot=[0,0,0],types={};
+  for(let q=1;q<=40;q++){const m=QMAP[tid][q];ptot[m.part]++;if(per[q].ok)parts[m.part]++;
+    const ty=types[m.type]||(types[m.type]={c:0,t:0});ty.t++;if(per[q].ok)ty.c++}
+  const total=parts.reduce((a,b)=>a+b,0);
+  return{per,parts,ptot,types,total,band:band(total)};
+}
+function teacher(){
+  stopExam();stopTeacher();
+  T={subs:[],reviews:{},keys:{},filter:lsGet('pt2-tfilter')||'all',unsubs:[],open:null,keyErr:false,loaded:false};
+  app.innerHTML=`<div class="wrap">${brandTop('Bảng giáo viên · Progress Test 2')}
+  <div class="tgrid" id="tgrid"><div class="empty">Đang tải kết quả…</div></div>
+  <div class="foot"><span>Học sinh mở đường link của trang (không có #giao-vien) để làm bài.</span><a href="#">Xem trang học sinh</a></div></div>`;
+  Promise.all(['t1','t2'].map(id=>db.doc('keys/'+id).get().then(s=>{if(s.exists)T.keys[id]=s.data();else T.keyErr=true}))).catch(()=>{T.keyErr=true}).finally(()=>renderTeacher());
+  const lt=setTimeout(()=>{if(T&&!T.loaded){$('#tgrid').innerHTML='<div class="empty">Chưa kết nối được kho kết quả. Trang sẽ tự cập nhật khi có kết nối.</div>'}},10000);
+  T.unsubs.push(db.collection('submissions').onSnapshot(s=>{if(!T)return;if(!s.metadata.fromCache){T.loaded=true;clearTimeout(lt)}T.subs=s.docs.map(d=>({id:d.id,...d.data()}));renderTeacher()},e=>{if(T){T.loaded=true;$('#tgrid').innerHTML='<div class="empty">Không đọc được kết quả ('+esc(e.code)+').</div>'}}));
+  T.unsubs.push(db.collection('reviews').onSnapshot(s=>{if(!T)return;T.reviews={};s.docs.forEach(d=>T.reviews[d.id]=d.data());renderTeacher();if(T.open)refreshSheet()},()=>{}));
+}
+function gradedRows(){
+  return T.subs.map(s=>{const k=T.keys[s.testId];const rv=T.reviews[s.id]||{};const g=(k&&s.status==='submitted')?grade(s,k,rv.overrides):null;return{...s,g,rv}})
+    .sort((a,b)=>(b.submittedAt||b.startedAt||0)-(a.submittedAt||a.startedAt||0));
+}
+function renderTeacher(){
+  if(!T)return;const box=$('#tgrid');if(!box)return;
+  if(!T.loaded)return;
+  const rows=gradedRows().filter(r=>T.filter==='all'||r.testId===T.filter);
+  const done=rows.filter(r=>r.g),ing=rows.filter(r=>r.status==='in_progress');
+  const avg=done.length?done.reduce((a,r)=>a+r.g.total,0)/done.length:null;
+  const avgB=done.length?done.reduce((a,r)=>a+r.g.band,0)/done.length:null;
+  const tests=T.filter==='all'?['t1','t2']:[T.filter];
+  box.innerHTML=`
+  <div class="thead"><div><div class="eyebrow">Lớp IELTS Vững Bước · Reading</div><h1>Kết quả Progress Test 2</h1></div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center"><div class="seg" role="group" aria-label="Lọc theo đề">${[['all','Tất cả'],['t1','Đề 1'],['t2','Đề 2']].map(([v,l])=>`<button type="button" data-f="${v}" aria-pressed="${T.filter===v}">${l}</button>`).join('')}</div>
+    <button class="btn ghost sm" type="button" id="copyTbl">Sao chép bảng điểm</button></div></div>
+  ${T.keyErr?'<div class="panel" style="border-color:var(--bad)"><b>Chưa có đáp án trong kho.</b><span class="muted">Không tìm thấy đáp án của một hoặc cả hai đề nên chưa chấm được. Hãy nhờ Claude nạp lại đáp án cho trang này.</span></div>':''}
+  <div class="tiles">
+    <div class="tile"><b>${done.length}</b><span>Bài đã nộp</span></div>
+    <div class="tile"><b>${ing.length}</b><span>Đang làm bài</span></div>
+    <div class="tile"><b>${avg==null?'—':avg.toFixed(1)}<small style="font-size:15px;color:var(--muted)">/40</small></b><span>Điểm trung bình</span></div>
+    <div class="tile"><b>${avgB==null?'—':(Math.round(avgB*2)/2).toFixed(1)}</b><span>Band trung bình (Academic)</span></div>
+  </div>
+  <section class="panel"><div class="phead"><h2>Danh sách học sinh</h2><span class="muted" style="font-size:13px">Bấm vào một dòng để xem chi tiết và viết nhận xét</span></div>
+  <div class="tbl"><table><thead><tr><th>Học sinh</th><th>Đề</th><th>Trạng thái</th><th>P1</th><th>P2</th><th>P3</th><th>Tổng</th><th>Band</th><th>Thời gian</th><th>Nhận xét</th></tr></thead><tbody>
+  ${rows.length?rows.map(r=>`<tr data-id="${esc(r.id)}" tabindex="0"><td class="name">${esc(r.name)}</td><td>${TESTS[r.testId]?.name||'—'}</td>
+   <td>${r.status==='submitted'?`<span class="pill sub">Đã nộp</span>`:`<span class="pill ing">Đang làm · ${fmtClock(r.startedAt+TOTAL_MS-Date.now())}</span>`}</td>
+   ${r.g?r.g.parts.map((p,i)=>`<td>${p}/${r.g.ptot[i]}</td>`).join('')+`<td><b>${r.g.total}</b>/40</td><td><span class="bandpill">${fmtBand(r.g.band)}</span></td><td>${fmtDur(r.durationSec)}</td>`:'<td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>'}
+   <td>${r.rv.comment?'<span class="pill sub">Đã viết</span>':'<span class="pill no">Chưa</span>'}</td></tr>`).join(''):`<tr><td colspan="10"><div class="empty">Chưa có học sinh nào bắt đầu làm bài${T.filter!=='all'?' đề này':''}. Khi học sinh bấm “Bắt đầu”, tên sẽ hiện ở đây.</div></td></tr>`}
+  </tbody></table></div></section>
+  ${tests.map(tid=>analysisPanel(tid,rows.filter(r=>r.testId===tid&&r.g))).join('')}`;
+  $$('[data-f]',box).forEach(b=>b.onclick=()=>{T.filter=b.dataset.f;lsSet('pt2-tfilter',T.filter);renderTeacher()});
+  $$('tbody tr[data-id]',box).forEach(tr=>{tr.onclick=()=>openSheet(tr.dataset.id);tr.onkeydown=e=>{if(e.key==='Enter')openSheet(tr.dataset.id)}});
+  $('#copyTbl').onclick=()=>copyScores(rows);
+}
+function analysisPanel(tid,rows){
+  const t=TESTS[tid];
+  if(!rows.length)return `<section class="panel"><div class="phead"><h2>Phân tích câu hỏi · ${t.name}</h2></div><div class="empty">Chưa có bài nộp cho ${t.name}.</div></section>`;
+  const rate=q=>rows.filter(r=>r.g.per[q].ok).length/rows.length;
+  const types={};rows.forEach(r=>{for(const[k,v]of Object.entries(r.g.types)){const x=types[k]||(types[k]={c:0,t:0});x.c+=v.c;x.t+=v.t}});
+  const pavg=[0,1,2].map(i=>rows.reduce((a,r)=>a+r.g.parts[i],0)/rows.length);
+  const hard=Array.from({length:40},(_,i)=>i+1).sort((a,b)=>rate(a)-rate(b)).slice(0,5);
+  return `<section class="panel"><div class="phead"><h2>Phân tích câu hỏi · ${t.name}</h2><span class="muted" style="font-size:13px">${rows.length} bài đã nộp</span></div>
+  <div class="heat" aria-label="Tỉ lệ đúng từng câu">${Array.from({length:40},(_,i)=>i+1).map(q=>{const r=rate(q);return `<div class="${r<.4?'h0':r<.7?'h1':'h2'}" title="Câu ${q}: ${Math.round(r*100)}% đúng">${q}</div>`}).join('')}</div>
+  <div class="hlegend"><span><i style="background:var(--bad-soft)"></i>Dưới 40% đúng</span><span><i style="background:var(--accent-soft)"></i>40–69%</span><span><i style="background:var(--ok-soft)"></i>Từ 70%</span><span>Câu khó nhất: <b>${hard.map(q=>q+' ('+Math.round(rate(q)*100)+'%)').join(', ')}</b></span></div>
+  <div class="two"><div class="bars"><b style="font-size:13.5px">Theo dạng câu hỏi</b>${Object.entries(types).sort((a,b)=>a[1].c/a[1].t-b[1].c/b[1].t).map(([k,v])=>`<div class="bar"><span>${k}</span><span class="tr"><i style="width:${v.c/v.t*100}%"></i></span><b>${Math.round(v.c/v.t*100)}%</b></div>`).join('')}</div>
+  <div class="bars"><b style="font-size:13.5px">Theo bài đọc (điểm trung bình)</b>${t.parts.map((p,i)=>{const n=p.range[1]-p.range[0]+1;return `<div class="bar"><span>Passage ${p.n}</span><span class="tr"><i style="width:${pavg[i]/n*100}%"></i></span><b>${pavg[i].toFixed(1)}/${n}</b></div>`}).join('')}</div></div>
+  </section>`;
+}
+async function copyScores(rows){
+  const lines=[['Học sinh','Đề','P1','P2','P3','Tổng','Band','Thời gian','Nhận xét'].join('\t')];
+  rows.filter(r=>r.g).forEach(r=>lines.push([r.name,TESTS[r.testId].name,...r.g.parts,r.g.total,fmtBand(r.g.band),fmtDur(r.durationSec),(r.rv.comment||'').replace(/\s+/g,' ')].join('\t')));
+  const txt=lines.join('\n');
+  try{await navigator.clipboard.writeText(txt);toast('Đã sao chép – dán vào Excel/Google Sheets')}
+  catch(e){const ta=document.createElement('textarea');ta.value=txt;ta.className='cm';ta.style.cssText='position:fixed;inset:20% 10%;z-index:80;height:50%;width:80%';document.body.appendChild(ta);ta.select();toast('Bấm Ctrl/Cmd+C để sao chép, rồi bấm ra ngoài để đóng');ta.onblur=()=>ta.remove()}
+}
+function openSheet(id){T.open=id;refreshSheet(true)}
+function closeSheet(){T.open=null;const s=$('#sheet');if(s)s.remove()}
+function refreshSheet(first){
+  const r=gradedRows().find(x=>x.id===T.open);
+  let sh=$('#sheet');
+  if(!r){closeSheet();return}
+  const draft=sh?$('#cm',sh)?.value:null;
+  const t=TESTS[r.testId],g=r.g;
+  const html=`<div class="in" role="dialog" aria-modal="true" aria-labelledby="shn">
+   <div class="shd"><div><div class="eyebrow">${t.name} · ${r.status==='submitted'?'Nộp lúc '+fmtTime(r.submittedAt)+(r.auto?' (tự nộp khi hết giờ)':''):'Đang làm bài'}</div><h2 id="shn">${esc(r.name)}</h2></div><button class="btn ghost sm" type="button" id="shx">Đóng</button></div>
+   ${g?`<div class="scorebox"><div class="big">${g.total}<small>/40</small></div><div style="display:grid;gap:6px"><span><span class="bandpill">Band ${fmtBand(g.band)}</span></span><div class="row">${g.parts.map((p,i)=>`<span>Passage ${i+1}: <b>${p}/${g.ptot[i]}</b></span>`).join('')}<span>Thời gian: <b>${fmtDur(r.durationSec)}</b></span></div></div></div>
+   <section class="panel"><h2>Theo dạng câu hỏi</h2><div class="bars">${Object.entries(g.types).map(([k,v])=>`<div class="bar"><span>${k}</span><span class="tr"><i style="width:${v.c/v.t*100}%"></i></span><b>${v.c}/${v.t}</b></div>`).join('')}</div></section>
+   <section class="panel"><div class="phead"><h2>Nhận xét kỹ năng đọc</h2><span class="wc" id="wc"></span></div>
+    <textarea class="cm" id="cm" placeholder="Nhận xét ngắn gọn (dưới 100 từ): điểm mạnh, dạng bài cần luyện thêm, định hướng tiếp theo…"></textarea>
+    <div class="racts"><span class="hint">${r.rv.updatedAt?'Đã lưu lúc '+fmtTime(r.rv.updatedAt):'Chưa lưu nhận xét'}</span><div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn ghost sm" type="button" id="sug">Gợi ý nhận xét</button><button class="btn sm" type="button" id="savecm">Lưu nhận xét</button></div></div>
+   </section>
+   <section class="panel"><div class="phead"><h2>Bài làm chi tiết</h2><span class="hint">Câu điền từ có thể chấm lại thủ công</span></div>
+    <div class="tbl"><table class="atbl"><thead><tr><th>Câu</th><th>Dạng</th><th>Học sinh</th><th>Đáp án</th><th></th><th></th></tr></thead><tbody>
+    ${t.parts.map((p,pi)=>`<tr class="sep"><td colspan="6">Passage ${p.n} · ${esc(p.title)}</td></tr>`+Array.from({length:p.range[1]-p.range[0]+1},(_,k)=>p.range[0]+k).map(q=>{const x=g.per[q],m=QMAP[r.testId][q];const txt=m.kind==='gaps'||m.kind==='sent';const ov=typeof (r.rv.overrides||{})[q]==='boolean';
+      return `<tr><td><b>${q}</b></td><td class="muted" style="font-size:12.5px">${m.type}</td><td class="ans">${x.given?esc(x.given):'<span class="muted">(bỏ trống)</span>'}</td><td class="ans">${esc(x.key)}</td><td class="${x.ok?'ok':'no'}">${x.ok?'✓':'✗'}</td><td>${txt&&x.given?`<button class="ovr ${ov?'on':''}" type="button" data-ov="${q}" data-to="${!x.ok}">${ov?'Bỏ chấm tay':(x.ok?'Chấm sai':'Chấm đúng')}</button>`:''}</td></tr>`}).join('')).join('')}
+    </tbody></table></div></section>`:`<section class="panel"><p style="margin:0">Học sinh đang làm bài. Đã làm <b>${Object.values(r.answers||{}).filter(Boolean).length}/40</b> câu, còn <b>${fmtClock(r.startedAt+TOTAL_MS-Date.now())}</b>.</p></section>`}
+   <section class="panel"><div class="phead"><h2>Cho làm lại</h2></div><p class="muted" style="margin:0;font-size:13.5px">Xoá bài làm này để học sinh chọn đề và làm lại từ đầu. Điểm và nhận xét hiện tại sẽ mất.</p><div><button class="btn ghost sm danger" type="button" id="reset">Xoá bài làm</button></div></section>
+  </div>`;
+  if(!sh){sh=document.createElement('div');sh.className='sheet';sh.id='sheet';document.body.appendChild(sh);sh.addEventListener('click',e=>{if(e.target===sh)closeSheet()})}
+  sh.innerHTML=html;
+  $('#shx',sh).onclick=closeSheet;
+  const cm=$('#cm',sh);
+  if(cm){
+    cm.value=draft!=null&&!first?draft:(r.rv.comment||'');
+    const upd=()=>{const n=words(cm.value);const w=$('#wc',sh);w.textContent=n+'/100 từ';w.classList.toggle('over',n>100);$('#savecm',sh).disabled=n>100};
+    cm.oninput=upd;upd();
+    $('#savecm',sh).onclick=async e=>{const b=e.target;b.disabled=true;try{await db.doc('reviews/'+r.id).set({...r.rv,comment:cm.value.trim(),name:r.name,updatedAt:Date.now()});toast('Đã lưu nhận xét')}catch(err){toast('Chưa lưu được, thử lại sau')}b.disabled=false};
+    $('#sug',sh).onclick=()=>suggest(r,cm,$('#sug',sh));
+    $$('[data-ov]',sh).forEach(b=>b.onclick=async()=>{const q=b.dataset.ov;const ovr={...(r.rv.overrides||{})};if(typeof ovr[q]==='boolean')delete ovr[q];else ovr[q]=b.dataset.to==='true';
+      b.disabled=true;try{await db.doc('reviews/'+r.id).set({...r.rv,overrides:ovr,name:r.name,updatedAt:r.rv.updatedAt||null})}catch(e){toast('Chưa lưu được');b.disabled=false}});
+  }
+  $('#reset',sh).onclick=()=>confirmDlg('Xoá bài làm?',`<p>Bài làm${g?' và nhận xét':''} của <b>${esc(r.name)}</b> sẽ bị xoá. Học sinh có thể bắt đầu lại.</p>`,'Xoá',async()=>{try{await db.doc('submissions/'+r.id).delete();await db.doc('reviews/'+r.id).delete();closeSheet();toast('Đã xoá bài làm')}catch(e){toast('Chưa xoá được');return false}});
+  if(first)$('#shx',sh).focus();
+}
+async function suggest(r,cm,btn){
+  const sample=await claude.use('sample');
+  if(!sample){toast('Tính năng gợi ý chưa dùng được ở đây');return}
+  const g=r.g,t=TESTS[r.testId];
+  const types=Object.entries(g.types).map(([k,v])=>`${k}: ${v.c}/${v.t}`).join('; ');
+  const wrong=Object.entries(g.per).filter(([q,x])=>!x.ok).map(([q,x])=>`Q${q} (${QMAP[r.testId][q].type}) HS: "${x.given||'bỏ trống'}", đáp án: ${x.key}`).slice(0,25).join('\n');
+  const prompt=`Bạn là giáo viên IELTS của lớp "IELTS Vững Bước" (học sinh mục tiêu band 5.0–6.0). Viết MỘT đoạn nhận xét bằng tiếng Việt, dưới 90 từ, gửi trực tiếp cho học sinh (xưng "cô", gọi "em"), về kỹ năng Reading trong bài Progress Test 2. Gồm: 1 điểm mạnh cụ thể, 1–2 dạng câu hỏi cần cải thiện kèm nguyên nhân có thể (dựa vào lỗi), và 1 định hướng luyện tập cụ thể cho tuần tới. Giọng ấm áp, rõ ràng, không dùng gạch đầu dòng, không nhắc lại toàn bộ số liệu. Chỉ trả về đoạn nhận xét.
+
+Học sinh: ${r.name}
+Đề: ${t.name}. Tổng: ${g.total}/40 (band ${fmtBand(g.band)}). Passage 1: ${g.parts[0]}/${g.ptot[0]}, Passage 2: ${g.parts[1]}/${g.ptot[1]}, Passage 3: ${g.parts[2]}/${g.ptot[2]}. Thời gian làm: ${fmtDur(r.durationSec)}.
+Theo dạng: ${types}
+Các câu sai:
+${wrong||'không có'}`;
+  const old=btn.textContent;btn.disabled=true;btn.textContent='Đang viết…';
+  try{const res=await sample(prompt,{modelTier:'default',onText:({text})=>{cm.value=text;cm.dispatchEvent(new Event('input'))}});cm.value=res.text.trim();cm.dispatchEvent(new Event('input'))}
+  catch(e){toast(e&&e.code==='rate_limited'?'Đang quá tải, thử lại sau ít phút':'Chưa tạo được gợi ý')}
+  btn.disabled=false;btn.textContent=old;
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){const m=$('.modal');if(m)m.remove();else if($('#sheet'))closeSheet()}});
+setInterval(()=>{if(T&&T.subs.some(s=>s.status==='in_progress')&&!$('#sheet'))renderTeacher()},30000);
+</script>
+
+</body></html>
